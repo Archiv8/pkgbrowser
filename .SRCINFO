@@ -1,0 +1,34 @@
+pkgbase = pkgbrowser
+	pkgver = 0.25
+	pkgrel = 2
+	url = https://osdn.net/projects/pkgbrowser
+	install = pkgbrowser.install
+	arch = x86_64
+	license = GPL2
+	depends = pacman>=4.1
+	depends = pacman<6.1
+	depends = python>=3.2
+	depends = python<3.11
+	depends = python-pyqt5
+	source = https://osdn.net/dl/pkgbrowser/pkgbrowser-0.25.tar.gz
+	source = CC-BY-SA-V4.md
+	source = CHANGELOG.md
+	source = COMMITLOG.md
+	source = HOW-TO-HELP.md
+	source = INSTALL.md
+	source = ISSUES.md
+	source = LICENSE.md
+	source = MIT.md
+	source = README.md
+	sha512sums = 191cea529f93f4f6674933561b861c4ee651a3fbe912d8c35310bb2a3c46a6f594275dd715bbe692a1d99a11a0e110546b8db05d41a02ca81e9a72d84bdc3c98
+	sha512sums = 063daeab2d06a0d8a8474abbcf4d09c92d89db649fa7cf7df436eb252969344ec2e1a28d37531571deac74633a9d68cd78d306196e749b0fa93fc093ffaede06
+	sha512sums = b6b58fdc1438abe13697d29b6680e21631fa8fec22527b14b8b865c72b96a7f5ba49257b2e93da48c301c9ad0b22d7cde195438ed72c8d7b1127d14dffdc76fd
+	sha512sums = 3ec49c014afc1a9ed22b5a656248feaabbe776afa330223cd7e1fda9a4dcd1f81cc7f98971e3593aa98c1843317899a0c8a792b49c47bcb2ec525c416c33170a
+	sha512sums = 1d324973063254f6fbe7fb35115744bb042cdeafb84a267f53bbd5f772d2e9a5f0bfa4b1a35e62fc407e759c44c6c0549682247e54983afbeb39f1f44b2edf86
+	sha512sums = b2552d6f1e0bbd705b7c0e8bb6d27d0af4de81402e3235e880f6d850e2d75322e432fff6941bb8b4805432b98e313206d012037daa20890a20feee331ade9039
+	sha512sums = d2ff032f5d762b4849add1528966e8bb8f37bb18f6b1269e3b667c53fcecf1a88be7508761b6aaa1bd5ebf014b9291ca78fe65adac137d96576088490f7b4e01
+	sha512sums = 5b7ae06e127b68f2969ed809a5d61ca8dbadac69e764eb235d61eae768b17b7982bcaddda77044a883eda5715f603289992548c6bedd6cd4809e3518f8675b05
+	sha512sums = 038c6ce873525cb00527c49968ab38d95c23a85e406bab1616504ea491f499413a1102acb90568ca6852bff7cb8aa28a6c306ec5f76f15994634d0a5f8f87a55
+	sha512sums = 68d98ade3415d535e6ecef6408b0588fe75611285b871b96c6df46704c0615ec482e1461b64fbaf2bd7386f98b6ee208afd36aab99ed9a6a56f425daaf895733
+
+pkgname = pkgbrowser
