@@ -7,13 +7,15 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
 
 ---
 
-<strong><i>This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg-url], a utility for browsing pacman databases and the AUR.</strong></i>
+_**This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg-url], a utility for browsing pacman databases and the AUR.**_
 
-<strong><i>It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.</strong></i>
+_**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
+
+_**The copyright holder reserves the right to update or change the licensing for the contents of this repository as required.**_
 
 ---
 

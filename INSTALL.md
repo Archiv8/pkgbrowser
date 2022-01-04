@@ -6,21 +6,25 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
 
 ---
 
-<strong><i>This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg-url], a utility for browsing pacman databases and the AUR.</strong></i>
+_**This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg-url], a utility for browsing pacman databases and the AUR.**_
 
-<strong><i>It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.</strong></i>
+_**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
+
+_**The copyright holder reserves the right to update or change the licensing for the contents of this repository as required.**_
 
 ---
 
-Thanks go out to all [Archiv8 Contributors][a8-contrib-url].
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Documentation for this project is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-(c) Documentation and Code, 2017 - 2020 Ross Clark
+Any original software produced for [Archiv8][a8-url] and / or quoted within the documentation is released under the MIT License.
 
-For information on licensing see [LICENSE.md](LICENSE.md)
+The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
+
+(c) Documentation and Code, 2017 - 2021 Ross Clark and [Archiv8 Contributors][a8-contrib-url]
 
 ---
 
