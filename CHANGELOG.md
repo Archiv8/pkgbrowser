@@ -1,4 +1,4 @@
-# [Archiv8][a8-url] CHANGE LOG
+# [Archiv8][a8-url] COMMIT LOG
 
 _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
@@ -22,16 +22,51 @@ All notable changes to the project are documented in this file using rules based
 
 ## Unreleased
 
-| Commit | Date | Title / Overview |
-| ------ | ---- | ---------------- |
-|        |      |                  |
+## :wrench: 2022-01-04 : 20:14: SHA ad30098
 
-### :wrench: &#91;0.0.2&#93; - 2022-02-06
++ .editorconfig
+  + Updated created and last update dates
 
-**This release addresses:**
+## :toolbox: 2022-01-04 : 20:08: SHA 2e74560
 
-+ Update remark-lint-settings.
-+ Update documentation
++ Add README type files for inclusion in installation
+
+## :hash: 2022-01-04 : 10:44, SHA: 3646d70
+
++ Add new integrity checks for files to PKGBUILD
+
+## :shower: 2022-01-04 : 10:44, SHA: idddc858
+
++ Tidy files and add markdownlint rules
+  + Added path to markdownlint configuration file
+  + Updated and corrected external links:
+    + Removed Gitter link in preparation for using GitHub discussions
+    + Added link to upstream package
+  + Added information for users:
+    + Added non-affiliation statement
+  + Tidied file to make more legible when rendered:
+    + Validated links
+    + Updated links to placeholders for easier updates
+
+## :shower: 2022-01-04 : 10:20, SHA: 38b7056 
+
+Tidy file add markdownlint rules
+
++ Added path to markdownlint configuration file
++ Updated and corrected external links:
+  + Removed Gitter link in preparation for using GitHub discussions
+  + Corrected link to upstream package
++ Added information for users:
+  + Added non-affiliation statement
++ Tidied file to make more legible when rendered:
+  + Reverted document markup to markdown where possible
+  + Added <strong> to license list items where missing
+  + Added <hr> between license sections
+  + Removed unnecessary numbering on lists
+
+## :tada: 2021-12-28, SHA: 4669e11
+
++ Initial upload to repository
 
 ---
 
@@ -41,7 +76,9 @@ Any original software produced for [Archiv8][a8-url] and / or quoted within the 
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
 
-(c) Documentation and Code, 2017 - 2021 Ross Clark and [Archiv8 Contributors][a8-contrib-url]
+Thanks to those who have contributed to [Archiv8][a8-contrib-url]
+
+(c) Documentation and Code, 2017 - 2022 Ross Clark and [Archiv8][a8-url]
 
 ---
 
