@@ -7,7 +7,7 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [CHANGELOG](CHANGELOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md)
 
 ---
 

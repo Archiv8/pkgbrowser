@@ -6,7 +6,7 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [CHANGELOG](CHANGELOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md)
 
 ---
 
@@ -73,4 +73,4 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-url]
 [commits-url]: https://conventionalcommits.org
 [mit-url]: https://opensource.org/licenses/MIT
 [semver-url]: https://semver.org
-[ups-pkg-url]: https://osdn.net/projects/pkgbrowser/
+[ups-pkg-url]: https://osdn.net/projects/pkgbrowser/#

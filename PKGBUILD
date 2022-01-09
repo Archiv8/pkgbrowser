@@ -29,12 +29,11 @@ depends=("pacman>=4.1" "pacman<6.1" "python>=3.2" "python<3.11" "python-pyqt5")
 # backup=()
 # options=()
 install="${pkgname}.install"
-# changelog=
+changelog="CHANGELOG.md"
 source=(
     "https://osdn.net/dl/${pkgname}/${pkgname}-${pkgver}.tar.gz"
     "CC-BY-SA-V4.md"
     "CHANGELOG.md"
-    "COMMITLOG.md"
     "HOW-TO-HELP.md"
     "INSTALL.md"
     "ISSUES.md"
@@ -75,12 +74,10 @@ package() {
     # Install Archiv8 related documentation
     install -Dm 644 "${srcdir}/CC-BY-SA-V4.md" "${pkgdir}/usr/share/licenses/${pkgname}/Archiv8/CC-BY-SA-V4.md"
     install -Dm 644 "${srcdir}/CHANGELOG.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/CHANGELOG.md"
-    install -Dm 644 "${srcdir}/COMMITLOG.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/COMMITLOG.md"
     install -Dm 644 "${srcdir}/HOW-TO-HELP.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/HOW-TO-HELP.md"
     install -Dm 644 "${srcdir}/INSTALL.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/INSTALL.md"
     install -Dm 644 "${srcdir}/ISSUES.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/ISSUES.md"
-    install -Dm 644 "${srcdir}/LICENSE.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/LICENSE.md"
-    install -Dm 644 "${srcdir}/MIT.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/MIT.md"
+    install -Dm 644 "${srcdir}/LICENSE.md" "${pkgdir}/usr/share/licenses/${pkgname}/Archiv8/LICENSE.md"
+    install -Dm 644 "${srcdir}/MIT.md" "${pkgdir}/usr/share/licenses/${pkgname}/Archiv8/MIT.md"
     install -Dm 644 "${srcdir}/README.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/README.md"
-
 }

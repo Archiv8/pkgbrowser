@@ -6,7 +6,7 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [CHANGELOG](CHANGELOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md)
 
 ---
 
@@ -17,11 +17,25 @@ _**It is not affiliated, authorized, endorsed by, or in other way connected with
 _**The copyright holder reserves the right to update or change the licensing for the contents of this repository as required.**_
 
 ---
+
 ## Unreleased: (Items that have not being accepted yet)
+
+N/A
 
 ## Latest: (Update without SHA, as is most recent update)
 
+## :wrench: 2022-01-09
 
++ Correct CHANGELOG to Changelog in menus
+
+## :toolbox: 2022-01-09 | 12:17 | [c987205][c987205]
+
++ Remove unneeded links in files as packages can't use conventional change logs and commits
+  + references to conventional commits
+  + references to keep a change log
+  + menu items referring to commit log
++ Make change log current with all commits
++ Remove commit log
 
 ## :toolbox: 2022-01-08 | 19:54 | SHA: [5b966c2][5b966c2]
 
@@ -154,6 +168,7 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-url]
 [semver-url]: https://semver.org
 [ups-pkg-url]: https://osdn.net/projects/pkgbrowser/
 
+[c987205]: https://github.com/Archiv8/pkgbrowser/commit/c98720541e963fa8a5a63c4277802c390c0ab47d
 [5b966c2]: https://github.com/Archiv8/pkgbrowser/commit/5b966c247ae8f25a1e8f8dd986e2c2923bd8f148
 [7636c61]: https://github.com/Archiv8/pkgbrowser/commit/7636c61700ab39e4d81ec322bc5dca2b4fd6b4ce
 [5c776de]: https://github.com/Archiv8/pkgbrowser/commit/5c776dec9735c8a59137b4ecf18f85210548777c
