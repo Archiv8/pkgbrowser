@@ -6,7 +6,7 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [CHANGELOG](CHANGELOG.md)
 
 ---
 
@@ -20,7 +20,7 @@ _**The copyright holder reserves the right to update or change the licensing for
 
 ## The MIT License (MIT)
 
-Copyright © 2017 to 2019 Ross Clark and Contributors
+Copyright © 2017 to 2022 Ross Clark and Archiv8
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -51,7 +51,9 @@ Any original software produced for [Archiv8][a8-url] and / or quoted within the 
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
 
-(c) Documentation and Code, 2017 - 2021 Ross Clark and [Archiv8 Contributors][a8-contrib-url]
+Thanks to those who have contributed to [Archiv8][a8-contrib-url]
+
+(c) Documentation and Code, 2017 - 2022 Ross Clark and [Archiv8][a8-url]
 
 ---
 

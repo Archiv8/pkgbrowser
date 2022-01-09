@@ -6,7 +6,7 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [CHANGELOG](CHANGELOG.md)
 
 ---
 
@@ -40,13 +40,15 @@ Any new issues should be filed with the [appropriate package repository][a8-repo
 
 ---
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Documentation for this project is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+[![Code Released Under MIT License][mit-badge]][mit-url] [![Documentation Released Under Creative Commons, Attribution ShareAlike, 4.0.0 License][cc-badge]][cc-terms-url]
 
 Any original software produced for [Archiv8][a8-url] and / or quoted within the documentation is released under the MIT License.
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
 
-(c) Documentation and Code, 2017 - 2021 Ross Clark and [Archiv8 Contributors][a8-contrib-url]
+Thanks to those who have contributed to [Archiv8][a8-contrib-url]
+
+(c) Documentation and Code, 2017 - 2022 Ross Clark and [Archiv8][a8-url]
 
 ---
 
