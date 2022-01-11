@@ -73,4 +73,4 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-url]
 [commits-url]: https://conventionalcommits.org
 [mit-url]: https://opensource.org/licenses/MIT
 [semver-url]: https://semver.org
-[ups-pkg-url]: https://osdn.net/projects/pkgbrowser/#
+[ups-pkg-url]: https://osdn.net/projects/pkgbrowser/
