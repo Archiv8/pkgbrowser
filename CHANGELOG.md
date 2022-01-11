@@ -20,11 +20,35 @@ _**The copyright holder reserves the right to update or change the licensing for
 
 ## Unreleased: (Items that have not being accepted yet)
 
-N/A
-
 ## Latest: (Update without SHA, as is most recent update)
 
-## :wrench: 2022-01-09
++ Regenerate .SRCINFO file
++ Update SHA's in PKGBrowser
++ Update change log
+
+## :shower: 2022-01-11 | 13:57 | [5ebe917][5ebe917]
+
++ Update PKGBUILD by:
+  + Uncommenting the package description (pkgdesc) pkgdesc variable
+  + Add hicolor-icon-theme to dependencies as suggested by namcap
+  + Updating SHAs to reflect recent file changes
+  + Add upstream license and documentation to install
+  + Install all Archiv8 documents to single directory to prevent broken links
+
+## :wrench: 2022-01-11 | 13:57 | [7b9abe4][7b9abe4]
+
++ Add new line to end of file
+
+## :wrench: 2022-01-11 | 13:57 | [88b153d][88b153d]
+
++ Correct upstream URL
+
+## :phone: 2022-01-11 | 13:35 | [8020b97][8020b97]
+
++ Added suggested apps and links to start developing the install file as a useful
+reference.
+
+## :wrench: 2022-01-09 | 14:06 | [3734ddb][3734ddb]
 
 + Correct CHANGELOG to Changelog in menus
 
@@ -168,6 +192,11 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-url]
 [semver-url]: https://semver.org
 [ups-pkg-url]: https://osdn.net/projects/pkgbrowser/
 
+[5ebe917]: https://github.com/Archiv8/pkgbrowser/commit/5ebe917f5ca6840a1707fb407131efb10fa47225
+[7b9abe4]: https://github.com/Archiv8/pkgbrowser/commit/7b9abe4d91d003f4e3d42038bb47972210df1aa2
+[88b153d]: https://github.com/Archiv8/pkgbrowser/commit/88b153d461baf547dc099b109b8771d3b331c38b
+[8020b97]: https://github.com/Archiv8/pkgbrowser/commit/8020b973f0ce933ca823a309631c52d62ee82ec5
+[3734ddb]: https://github.com/Archiv8/pkgbrowser/commit/3734ddbda48641ddaa43cfff9f91a4e94d708931
 [c987205]: https://github.com/Archiv8/pkgbrowser/commit/c98720541e963fa8a5a63c4277802c390c0ab47d
 [5b966c2]: https://github.com/Archiv8/pkgbrowser/commit/5b966c247ae8f25a1e8f8dd986e2c2923bd8f148
 [7636c61]: https://github.com/Archiv8/pkgbrowser/commit/7636c61700ab39e4d81ec322bc5dca2b4fd6b4ce
