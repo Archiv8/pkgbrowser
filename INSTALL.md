@@ -18,6 +18,34 @@ _**The copyright holder reserves the right to update or change the licensing for
 
 ---
 
+## Installation
+
+There are no dependencies for [PkgBrowser][ups-pkg-url] that need to be made available prior to to building and installing this package. See the recommendations below for further information
+
+## Recommendations
+
+### Build in a clean chroot
+
+[Building in a clean chroot][buildchroot-arch-wiki]
+
+[chroot][chroot-arch-wiki]
+
+[proot package][proot-pkg-aur] [proot arch wiki][proot-arch-wiki] [proot help][proot-help-url] [proot source][proot-url]
+
+[fakechroot][fakechroot-url] [fakechroot wiki][fakechroot-wiki] []Arch Linux Package[fakechroot-pkg-url]
+
+[aur utils][aurutils-aur] [aurutils github][aurutils-github]
+
+### A local repository server to store and install built packages
+
+[Custom local repository][local-repo-arch-wiki]
+
+### Aur helpers
+
+Other tools that may be useful are listed on the [AUR helpers][aurhelpers-arch-wiki] page of the [ArchWiki][arch-wiki-url]
+
+---
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Documentation for this project is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 Any original software produced for [Archiv8][a8-url] and / or quoted within the documentation is released under the MIT License.
@@ -48,10 +76,25 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-url]
 [semver-badge]: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-informational.svg
 
 [arch-url]: https://www.archlinux.org/
+[arch-aur-url]: https://aur.archlinux.org/
+[arch-wiki-url]: https://wiki.archlinux.org/
 
 [a8-url]: https://archiv8.github.io/
 [a8-pkg-url]: https://github.com/Archiv8/pkgbrowser
 [a8-contrib-url]: https://github.com/Archiv8/pkgbrowser/people
+
+[local-repo-arch-wiki]: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Custom_local_repository
+[aurutils-aur]: https://aur.archlinux.org/packages/aurutils
+[aurutils-github]: https://github.com/AladW/aurutils
+[buildchroot-arch-wiki]: https://wiki.archlinux.org/title/DeveloperWiki:Building_in_a_clean_chroot
+[chroot-arch-wiki]: https://wiki.archlinux.org/title/Chroot
+[fakechroot-pkg-url]: https://archlinux.org/packages/extra/x86_64/fakechroot/
+[fakechroot-url]: https://github.com/dex4er/fakechroot
+[fakechroot-wiki]: https://github.com/dex4er/fakechroot/wiki
+[proot-arch-wiki]: https://wiki.archlinux.org/title/PRoot
+[proot-help-url]: https://proot-me.github.io/
+[proot-pkg-aur]: https://aur.archlinux.org/packages/proot/
+[proot-url]: https://github.com/proot-me/proot
 
 [change-url]: https://keepachangelog.com
 [commits-url]: https://conventionalcommits.org
