@@ -7,7 +7,7 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How To Help](HOW-TO-HELP.md) || [Change Log](CHANGELOG.md)
 
 ---
 
@@ -306,9 +306,9 @@ Any original software produced for [Archiv8][a8-url] and / or quoted within the 
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors
 
-Thanks to those who have contributed to [Archiv8][a8-contrib-url]
+Thanks to those who have contributed to [Archiv8][a8-contrib-people-url]
 
-(c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8-url]
+(c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8-contrib-people-url]
 
 _**Ross Clark and Archiv8 reserve the right to update or change the license for code or documentation under their ownership.  Notification of changes will appear in packages CHANGELOG.md**_
 
