@@ -30,7 +30,7 @@ Should there be an error or confusion in the attribution of: upstream sources or
 
 ---
 
-[[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa-url]
+[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa-url]
 
 [Documentation for this project is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa-url]
 
