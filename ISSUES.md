@@ -14,7 +14,7 @@ _This repository contains unofficial packaging for an installation of [PkgBrowse
 
 ---
 
-Any new issues should be filed with the [package repository][[a8-pkg-issues-url]
+Any new issues should be filed with the [package repository][a8-pkg-issues-url]
 
 [Bug](#Bug) || [Documentation](#Documentation) || [Form](#Form) [Outdated](#Outdated) [Package](#Package) [Request](#Request) [Security](#Security) [Upstream](#Upstream)
 
