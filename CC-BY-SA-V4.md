@@ -3,7 +3,7 @@
 
 _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
-[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant-url] [![Contributors License Agreement adopted][cla-badge]][a8-cla-url] [![Conventional Commits][commits-badge]](https://conventionalcommits.org)
+[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant-url] [![Contributors License Agreement adopted][cla-badge]][a8-cla-url] [![Conventional Commits][commits-badge]][cc-url]
 
 ---
 
@@ -325,12 +325,14 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [mit-badge]: https://img.shields.io/badge/License-MIT-informational.svg
 [semver-badge]: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-informational.svg
 
+[cc-by-sa-url]: https://creativecommons.org/licenses/by-sa/4.0/
 [cc-compat-url]: http://creativecommons.org/compatiblelicenses
 [cc-dev-consider-url]: https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors
 [cc-policies-url]: http://creativecommons.org/policies
 [cc-pub-consider-url]: https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees
 [cc-pub-domain-url]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
 [cc-terms-url]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-url]: http://creativecommons.org/
 
 [arch-aur-url]: https://aur.archlinux.org/
 [arch-url]: https://www.archlinux.org/
@@ -348,7 +350,6 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [a8-projects-url]: https://github.com/Archiv8
 [a8-url]: https://archiv8.github.io/
 
-[cc-by-sa-url]: https://creativecommons.org/licenses/by-sa/4.0/
 [change-url]: https://keepachangelog.com
 [commits-url]: https://conventionalcommits.org
 [contrib-covenant-url]: https://osdn.net/projects/pkgbrowser/
