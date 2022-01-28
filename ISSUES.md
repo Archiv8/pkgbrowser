@@ -2,7 +2,7 @@
 
 _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
-[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant-url] [![Contributors License Agreement adopted][cla-badge]][a8-cla-url] [![Conventional Commits][commits-badge]](https://conventionalcommits.org)
+[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant-url] [![Contributors License Agreement adopted][cla-badge]][a8-cla-url] [![Conventional Commits][commits-badge]][cc-url]
 
 ---
 
@@ -14,7 +14,7 @@ _This repository contains unofficial packaging for an installation of [PkgBrowse
 
 ---
 
-Any new issues should be filed with the [appropriate package repository][a8-repo-issue-url]
+Any new issues should be filed with this [package's repository][[a8-pkg-issues-url]]
 
 [Bug](#Bug) || [Documentation](#Documentation) || [Form](#Form) [Outdated](#Outdated) [Package](#Package) [Request](#Request) [Security](#Security) [Upstream](#Upstream)
 
@@ -44,15 +44,13 @@ Any original software produced for [Archiv8][a8-url] and / or quoted within the 
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors
 
-Thanks to those who have contributed to [Archiv8][a8-contrib-url]
+Thanks to those who have contributed to [Archiv8][a8-contrib-people-url]
 
 (c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8-url]
 
 _**Ross Clark and Archiv8 reserve the right to update or change the license for code or documentation under their ownership.  Notification of changes will appear in packages CHANGELOG.md**_
 
 ---
-
-[![Conventional Commits, version 1.0.0, adopted][commits-badge]][commits-url] [![Keep a Changelog, version 1.0.0, adopted][changelog-badge]][change-url] [![Semantic Versioning, version 2.0.0, adopted][semver-badge]][semver-url]
 
 [![Code Released Under MIT License][mit-badge]][mit-url] [![Documentation Released Under Creative Commons, Attribution ShareAlike, 4.0.0 License][cc-badge]][cc-terms-url]
 
@@ -86,6 +84,7 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [a8-contrib-covenant-url]: https://archiv8.github.io/community/code-of-conduct
 [a8-contrib-people-url]: https://github.com/Archiv8/pkgbrowser/people
 [a8-mit-url]: https://archiv8.github.io/licences/mit
+[a8-pkg-issues-url]: https://github.com/Archiv8/pkgbrowser/issues
 [a8-pkg-url]: https://github.com/Archiv8/pkgbrowser
 [a8-projects-url]: https://github.com/Archiv8
 [a8-url]: https://archiv8.github.io/
