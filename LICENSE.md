@@ -2,7 +2,7 @@
 
 _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
-[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][contrib-covenant] [![Contributors License Agreement adopted][cla-badge]][a8-cla] [![Conventional Commits][commits-badge]](https://conventionalcommits.org)
+[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant-url] [![Contributors License Agreement adopted][cla-badge]][a8-cla-url] [![Conventional Commits][commits-badge]][cc-url]
 
 ---
 
@@ -30,7 +30,7 @@ Should there be an error or confusion in the attribution of: upstream sources or
 
 ---
 
-[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa-url]
+[[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa-url]
 
 [Documentation for this project is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa-url]
 
@@ -38,7 +38,7 @@ Any original software produced for [Archiv8][a8-url] and / or quoted within the 
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors
 
-Thanks to those who have contributed to [Archiv8][a8-contrib-url]
+Thanks to those who have contributed to [Archiv8][a8-contrib-people-url]
 
 (c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8-url]
 
