@@ -2,7 +2,7 @@
 
 _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
-[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][contrib-covenant] [![Contributors License Agreement adopted][cla-badge]][a8-cla] [![Conventional Commits][commits-badge]](https://conventionalcommits.org)
+[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant-url] [![Contributors License Agreement adopted][cla-badge]][a8-cla-url] [![Conventional Commits][commits-badge]][cc-url]
 
 ---
 
@@ -10,7 +10,7 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg-url], a utility for browsing [pacman databases][arch-pkgs-url] and the [AUR][arch-aur-url]. __**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
+_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg-url], a utility for browsing [pacman databases][arch-pkgs-url] and the [AUR][arch-aur-url]._ _**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
 
 ---
 
@@ -49,7 +49,7 @@ Any original software produced for [Archiv8][a8-url] and / or quoted within the 
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors
 
-Thanks to those who have contributed to [Archiv8][a8-contrib-url]
+Thanks to those who have contributed to [Archiv8][a8-contrib-people-url]
 
 (c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8-url]
 
