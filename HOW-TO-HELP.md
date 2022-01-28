@@ -2,11 +2,11 @@
 
 _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
-[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][contrib-covenant] [![Contributors License Agreement adopted][cla-badge]][a8-cla] [![Conventional Commits][commits-badge]](https://conventionalcommits.org)
+[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant-url] [![Contributors License Agreement adopted][cla-badge]][a8-cla-url] [![Conventional Commits][commits-badge]][cc-url]
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [CHANGELOG](Changelog.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How To Help](HOW-TO-HELP.md) || [Change Log](CHANGELOG.md)
 
 ---
 
@@ -64,6 +64,7 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [a8-contrib-covenant-url]: https://archiv8.github.io/community/code-of-conduct
 [a8-contrib-people-url]: https://github.com/Archiv8/pkgbrowser/people
 [a8-mit-url]: https://archiv8.github.io/licences/mit
+[a8-pkg-issues-url]: https://github.com/Archiv8/pkgbrowser/issues
 [a8-pkg-url]: https://github.com/Archiv8/pkgbrowser
 [a8-projects-url]: https://github.com/Archiv8
 [a8-url]: https://archiv8.github.io/
