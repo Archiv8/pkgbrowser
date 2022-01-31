@@ -16,6 +16,35 @@ _This repository contains unofficial packaging for an installation of [PkgBrowse
 
 ## Unreleased: (Items that have not been accepted yet)
 
+## :satellite: 2022-01-31 | --:-- | [-------][-------]
+
+**Files:** .SRCINFO
+
++ Auto update to reflect new changes
+## :satellite: 2022-01-31 | --:-- | [-------][-------]
+
+**Files:** PKGBUILD
+
++ Update dependencies after namcap scan
++ Format for better legibility
++ Update SHA's to reflect changes made in installed files
+
+## :satellite: 2022-01-28 | 13:44 | [5042f3c][5042f3c]
+
+**Files:** INSTALL.md
+
++ Continuing expanding installation documentation
+
+## :satellite: 2022-01-28 | 16:08 | [e7edd80][e7edd80]
+
+**Files:** .SRCINFO, PKGBUILD
+
++ Update generated SHAs
+
+## :speech_balloon:  2022-01-28 | 16:08 | [b2546fd][b2546fd]
+
++ DOC: Update changes
+
 ## :wrench: 2022-01-28 | 16:08 | [573e606][573e606]
 
 **Files:** MIT.md
@@ -431,6 +460,9 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [semver-url]: https://semver.org
 [ups-pkg-url]: https://osdn.net/projects/pkgbrowser/
 
+[5042f3c]: https://github.com/Archiv8/pkgbrowser/commit/5042f3c4dae072b7db8837fad3e158d5b2204d52
+[e7edd80]: https://github.com/Archiv8/pkgbrowser/commit/e7edd80008da37478ca40baad952086334908923
+[b2546fd]: https://github.com/Archiv8/pkgbrowser/commit/b2546fd10ffc64fdc3015a7bd3a90084c58a745f
 [573e606]: https://github.com/Archiv8/pkgbrowser/commit/573e60633b92615ac47f4a84aad4a0f02b97116c
 [cbe01f6]: https://github.com/Archiv8/pkgbrowser/commit/cbe01f6b4ce47212d81e3f737bfa6c59bdac2d58
 [247df42]: https://github.com/Archiv8/pkgbrowser/commit/247df423c234d3e40f83d06ddac14ecc9bda4b86
