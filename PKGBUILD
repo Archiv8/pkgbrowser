@@ -19,8 +19,8 @@ url="https://osdn.net/projects/${pkgname}"
 license=("GPL2")
 arch=("x86_64")
 # groups=()
-depends=("pacman>=4.1" "pacman<6.1" "python>=3.2" "python<3.11" "python-pyqt5" "hicolor-icon-theme")
-# makedepends=()
+depends=("pacman" "hicolor-icon-theme")
+makedepends=("python-pyqt5")
 # checkdepends=()
 # optdepends=()
 # provides=()
@@ -45,23 +45,25 @@ source=(
 sha512sums=(
     "191cea529f93f4f6674933561b861c4ee651a3fbe912d8c35310bb2a3c46a6f594275dd715bbe692a1d99a11a0e110546b8db05d41a02ca81e9a72d84bdc3c98"
     "b568fb9bde84b1fb72011f4680a4a8a35ff5861a928e33aa2e352b9b8eaa4476a421fe759b087aa4b725f232693a46e1ba4198c417221066d7c76f2371f59688"
-    "22c5d1af807d7333f31958f20a0bb40c220c83861a3df0fedbb9b0b9a5b7eb7216e2ff812cb4cd8ca58e3fb47743c1a4f9fc728fda1294dca22b14c329883568"
+    "8a11008b069553ec295bc5668f47933cb7034c0fb6ab374d70dbbe661f0a14ce70842378ba71aa51c86872f722e6329ae94e283d501f0678faa47935dc171891"
     "ecfe39fb9b7f3b7136b680b211d5fdd6e844609cf4e1aa5680b1234b04110f696ca05cb094a325e1770e31abb2197bae654419d8ce83adbd0a6745a071720320"
-    "73d5328265797e76dc29ce38aefc92715df9b9e61f5d6e85be60cf65f07ecbdcec609b240d609865d945ffb19d9e536f60ee127f15d1be54a0867a0a291a0b75"
+    "c3f5edd8d86fb5da2e2fa67702905ecfc15248094415ffd8b9a865b8a93e44ec8bbd55abf3ac29dcdae900afece1a3c9980dd5dabd5300088a477c4233512465"
     "e869d31fb9818bd02ace66d13846a15047333509942acd84bf95f021743e5b0ccee54184d371d100adc5fe24f23384c798ce4b6d2e03fc13256bdb94bdefa501"
     "e7cc72b303f4c3532e7f8a705f4dda008e04ab9d729a8ab19cdae384e58c36cebd8f04de115074c068c8c9226f2d6ccfc89ab575fe2c69395404eb62bafddad0"
     "6356a196342f83b73e546c6331ede7d0211d9193d91e5b437cbebb1877764f43801c95c99c1060a32e167b4352584dc02060604acbc24258cc46c09643c34b9b"
-     "0b07ac85bcd5e9529c673d804f39e309e6866acbac42164b6f9224dfde363476cacbfe939e50addb24654d37fdc2ae9a4459fe2d0d77bc406e71b9c7327dd81d"
+    "0b07ac85bcd5e9529c673d804f39e309e6866acbac42164b6f9224dfde363476cacbfe939e50addb24654d37fdc2ae9a4459fe2d0d77bc406e71b9c7327dd81d"
 )
 # validpgpkeys=()
 
 build() {
+
     cd "${srcdir}/${pkgname}-${pkgver}" || printf "\n\n==> Error: Failed to find source code directory needed to build, %s. This is likely to be an error with the packaging:\n \n\e]8;;https://github.com/Archiv8/%s/issues/new?labels=priority: CRITICAL :clock1:,status: new :ear:,element: package :gift:,type: bug :bug:&title=[Archiv8: %s]  Missing+source+code+directory\e\\Please file an issue to help Archiv8 to continue to improve\e]8;;\e\\ \n\nHold the ctrl button whilst clicking the link to open an issue form\n\n\n" "${pkgname}" "${pkgname}" "${pkgname}"
 
     make PREFIX="/usr"
 }
 
 package() {
+
     cd "${srcdir}/${pkgname}-${pkgver}" || printf "\n\n==> Error: Failed to find source code directory needed to build, %s. This is likely to be an error with the packaging:\n \n\e]8;;https://github.com/Archiv8/%s/issues/new?labels=priority: CRITICAL :clock1:,status: new :ear:,element: package :gift:,type: bug :bug:&title=[Archiv8: %s]  Missing+source+code+directory\e\\Please file an issue to help Archiv8 to continue to improve\e]8;;\e\\ \n\nHold the ctrl button whilst clicking the link to open an issue form\n\n\n" "${pkgname}" "${pkgname}" "${pkgname}"
 
     make PREFIX="/usr" DESTDIR="${pkgdir}" install
