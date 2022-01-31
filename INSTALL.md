@@ -28,19 +28,53 @@ Archiv8 recommends that you build the package in a clean chroot and add it to a 
 
 #### Setup the repository
 
+##### Create a folder for your repository
+
+Pros / Cons
+
 ```shell
 
+mkdir /home/me/repos/repo-one/
 
+```
+
+##### Initialize the repository
+
+Pros / Cons
+
+```shell
+
+repo-add /home/me/repos/repo-one/repo-one.db.tar.gz
 
 ```
 
 #### Add the repository to /etc/pacmam.conf
 
-#### Obtain the package
+Pros / Cons
 
-#### Build the package
+Find
 
-Build the package using, for example, aur build from [aurutils package][aurutils-aur]
+``` shell
+
+[repo-one]
+SigLevel = Optional TrustAll
+Server = file:///home/me/repos/repo-one
+
+```
+
+Alternatively
+
+``` shell
+
+[repo-one]
+SigLevel = Optional TrustAll
+Server = file:///home/me/repos/repo-one
+
+```
+
+#### Get the package
+
+#### Build the package, for example, using tools included in the [aurutils package][aurutils-aur]
 
 ### makepkg
 
