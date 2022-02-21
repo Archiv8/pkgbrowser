@@ -8,6 +8,10 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
+
+---
+
 ## About This Repository
 
 _This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg-url], a utility for browsing [pacman databases][arch-pkgs-url] and the [AUR][arch-aur-url]._ _**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
@@ -22,7 +26,7 @@ For information on installing the package instructions are available in the [INS
 
 Any original software produced for [Archiv8][a8-url] and / or quoted within the documentation is released under the MIT License
 
-The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors
+The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by their creator and contributors
 
 Thanks to those who have contributed to [Archiv8][a8-contrib-people-url]
 
@@ -60,10 +64,12 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [a8-cc-by-sa-url]: https://archiv8.github.io/licences/creative-commons
 [a8-cla-url]: https://archiv8.github.io/licenses/contributor-license-agreement
 [a8-commits-url]: https://archiv8.github.io/contributing/style-guides/conventional-commits
+[a8-changelog-url]: https://archiv8.github.io/contributing/style-guides/conventional-changelog
 [a8-conduct-url]: https://archiv8.github.io/community/code-of-conduct
-[a8-contrib-covenant-url]: https://archiv8.github.io/community/code-of-conduct
+[a8-contrib-covenant-url]: https://archiv8.github.io/contributing/contributor-covenant
 [a8-contrib-people-url]: https://github.com/Archiv8/pkgbrowser/people
 [a8-mit-url]: https://archiv8.github.io/licences/mit
+[a8-cc-by-sa-url]: https://archiv8.github.io/licences/creative-commons
 [a8-pkg-url]: https://github.com/Archiv8/pkgbrowser
 [a8-projects-url]: https://github.com/Archiv8
 [a8-url]: https://archiv8.github.io/

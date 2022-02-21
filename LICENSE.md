@@ -6,7 +6,7 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
 
 ---
 
@@ -74,10 +74,12 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [a8-cc-by-sa-url]: https://archiv8.github.io/licences/creative-commons
 [a8-cla-url]: https://archiv8.github.io/licenses/contributor-license-agreement
 [a8-commits-url]: https://archiv8.github.io/contributing/style-guides/conventional-commits
+[a8-changelog-url]: https://archiv8.github.io/contributing/style-guides/conventional-changelog
 [a8-conduct-url]: https://archiv8.github.io/community/code-of-conduct
-[a8-contrib-covenant-url]: https://archiv8.github.io/community/code-of-conduct
+[a8-contrib-covenant-url]: https://archiv8.github.io/contributing/contributor-covenant
 [a8-contrib-people-url]: https://github.com/Archiv8/pkgbrowser/people
 [a8-mit-url]: https://archiv8.github.io/licences/mit
+[a8-cc-by-sa-url]: https://archiv8.github.io/licences/creative-commons
 [a8-pkg-url]: https://github.com/Archiv8/pkgbrowser
 [a8-projects-url]: https://github.com/Archiv8
 [a8-url]: https://archiv8.github.io/
