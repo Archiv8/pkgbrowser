@@ -1,8 +1,8 @@
-# [Archiv8][a8-url] INSTALLATION GUIDE
+# [Archiv8][a8] INSTALLATION GUIDE
 
-_Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
+_Exploring and Sharing Custom [Arch Linux][arch] PKGBUILDs_
 
-[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant-url] [![Contributors License Agreement adopted][cla-badge]][a8-cla-url] [![Conventional Commits][commits-badge]](https://conventionalcommits.org)
+[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant] [![Contributors License Agreement adopted][cla-badge]][a8-cla] [![Conventional Commits][commits-badge]](https://conventionalcommits.org)
 
 ---
 
@@ -10,155 +10,45 @@ _Exploring and Sharing Custom [Arch Linux][arch-url] PKGBUILDs_
 
 ---
 
-_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg-url], a utility for browsing [pacman databases][arch-pkgs-url] and the [AUR][arch-aur-url]._ _**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
+_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg], a utility for browsing [pacman databases][arch-pkgs] and the [AUR][arch-aur]._ _**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
 
 ---
 
 ## Dependencies
 
-There are no dependencies for [PkgBrowser][ups-pkg-url] that need to be made available prior to building and installing this package.
+There are no dependencies for [PkgBrowser][ups-pkg] that need to be made available prior to building and installing this package. Once  the packaging files have downloaded build and install using a preferred method.
 
-## Installation
+The simplist method is to use:
 
-Arch Linux provides different ways of building and installing packages. The simplist is annotated below, sourced from the [ArchWiki page on makepkg][arch-wiki-makepkg].
+'''
 
-### Recommended installation route
+makepkg -si
 
-Archiv8 recommends that you build the package in a clean chroot and add it to a local repository.
+'''
 
-#### Setup the repository
-
-##### Create a folder for your repository
-
-Pros / Cons
-
-```shell
-
-mkdir /home/me/repos/repo-one/
-
-```
-
-##### Initialize the repository
-
-Pros / Cons
-
-```shell
-
-repo-add /home/me/repos/repo-one/repo-one.db.tar.gz
-
-```
-
-#### Add the repository to /etc/pacmam.conf
-
-Pros / Cons
-
-Find
-
-``` shell
-
-[repo-one]
-SigLevel = Optional TrustAll
-Server = file:///home/me/repos/repo-one
-
-```
-
-Alternatively
-
-``` shell
-
-[repo-one]
-SigLevel = Optional TrustAll
-Server = file:///home/me/repos/repo-one
-
-```
-
-#### Get the package
-
-#### Build the package, for example, using tools included in the [aurutils package][aurutils-aur]
-
-### makepkg
-
-#### Obtain the package
-
-**Option 1**:  (_preferred_) Clone the package from the Archiv8, [pkgbrowser repository][a8-pkg-gitclone]
-
-```shell
-
-Download the package from the Archiv8 repository
-
-```
-
-**Option 2**:  Download the package from the Archiv8, [pkgbrowser repository][a8-pkg-url]
-
-```shell
-
-cd /directory/to/the-package
-
-```
-
-If you downloaded the package it will need extracting
-
-```shell
-
-cd /directory/to/the/package
-
-```
-
-#### Build the package
-
-Once the package is extracted or if the package was cloned change to the package director
-
-```shell
-
-makepkg -s
-
-```
-
-#### Install the package
-
-```shell
-
-makepkg -i
-
-```
-
-### Further resources
-
-The following resources are available to assist building a package:
-
-+ [Building in a clean chroot][buildchroot-arch-wiki]
-+ [chroot][chroot-arch-wiki]
-+ [proot package][proot-pkg-aur]
-+ [proot arch wiki][proot-arch-wiki]
-+ [proot help][proot-help-url]
-+ [proot source][proot-url]
-+ [fakechroot][fakechroot-url]
-+ [fakechroot wiki][fakechroot-wiki]
-+ [Arch Linux Package][fakechroot-pkg-url]
-+ [aur utils][aurutils-aur]
-+ [aurutils github][aurutils-github]
-+ [Custom local repository][local-repo-arch-wiki]
-+ Other tools that may be useful are listed on the [AUR helpers][arch-wiki-aurhelpers] page of the ArchWiki
+_**Further instructions for [building][a8-docs-build] and [installing][a8-docs-install] packages are available on the [Archiv8 website][a8-docs] or [ArchWiki][arch-wiki]**_
 
 ---
 
-[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa-url]
+[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa]
 
-[Documentation for this project is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa-url]
+[Documentation for this project is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa]
 
-Any original software produced for [Archiv8][a8-url] and / or quoted within the documentation is released under the MIT License
+Any original software produced for [Archiv8][a8] and / or quoted within the documentation is released under the MIT License
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors
 
-Thanks to those who have contributed to [Archiv8][a8-contrib-url]
+Thanks to those who have contributed to [Archiv8][a8-contrib-people] and [this package in particular][a8-contrib-pkg-people]
 
-(c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8-url]
+(c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8]
 
-_**Ross Clark and Archiv8 reserve the right to update or change the license for code or documentation under their ownership.  Notification of changes will appear in packages CHANGELOG.md**_
+_**Ross Clark and Archiv8 reserve the right to update or change the license for code or documentation under their ownership.  Notification of changes to this packaging will appear CHANGELOG.md**_
 
 ---
 
-[![Code Released Under MIT License][mit-badge]][mit-url] [![Documentation Released Under Creative Commons, Attribution ShareAlike, 4.0.0 License][cc-badge]][cc-terms-url]
+[![Conventional Commits, version 1.0.0, adopted][commits-badge]][commits]
+
+[![Code Released Under MIT License][mit-badge]][mit] [![Documentation Released Under Creative Commons, Attribution ShareAlike, 4.0.0 License][cc-badge]][cc-terms]
 
 [cc-badge]: https://img.shields.io/badge/License-CC%20by%20SA%204.0.0-informational.svg
 [cc-large-badge]: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg
@@ -169,50 +59,66 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [mit-badge]: https://img.shields.io/badge/License-MIT-informational.svg
 [semver-badge]: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-informational.svg
 
-[cc-by-sa-url]: https://creativecommons.org/licenses/by-sa/4.0/
-[cc-compat-url]: http://creativecommons.org/compatiblelicenses
-[cc-dev-consider-url]: https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors
-[cc-policies-url]: http://creativecommons.org/policies
-[cc-pub-consider-url]: https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees
-[cc-pub-domain-url]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
-[cc-terms-url]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-url]: http://creativecommons.org/
+[cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
+[cc-compat]: http://creativecommons.org/compatiblelicenses
+[cc-dev-consider]: https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors
+[cc-policies]: http://creativecommons.org/policies
+[cc-pub-consider]: https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees
+[cc-pub-domain]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+[cc-terms]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc]: http://creativecommons.org/
 
-[arch-aur-url]: https://aur.archlinux.org/
-[arch-url]: https://www.archlinux.org/
-[arch-pkgs-url]: https://archlinux.org/packages/
-[arch-wiki-url]: https://wiki.archlinux.org
+[change]: https://keepachangelog.com
+[commits]: https://conventionalcommits.org
+[contrib-covenant]: https://osdn.net/projects/pkgbrowser/
+[mit]: https://opensource.org/licenses/MIT
+[semver]: https://semver.org
 
-[a8-cc-by-sa-url]: https://archiv8.github.io/licences/creative-commons
-[a8-cla-url]: https://archiv8.github.io/licenses/contributor-license-agreement
-[a8-commits-url]: https://archiv8.github.io/contributing/style-guides/conventional-commits
-[a8-changelog-url]: https://archiv8.github.io/contributing/style-guides/conventional-changelog
-[a8-conduct-url]: https://archiv8.github.io/community/code-of-conduct
-[a8-contrib-covenant-url]: https://archiv8.github.io/contributing/contributor-covenant
-[a8-contrib-people-url]: https://github.com/Archiv8/pkgbrowser/people
-[a8-mit-url]: https://archiv8.github.io/licences/mit
-[a8-cc-by-sa-url]: https://archiv8.github.io/licences/creative-commons
-[a8-pkg-url]: https://github.com/Archiv8/pkgbrowser
-[a8-projects-url]: https://github.com/Archiv8
-[a8-url]: https://archiv8.github.io/
+[arch]: https://www.archlinux.org/
+[arch-aur]: https://aur.archlinux.org/
+[arch-pkgs]: https://archlinux.org/packages/
+[arch-wiki]: https://wiki.archlinux.org
 
-[change-url]: https://keepachangelog.com
-[commits-url]: https://conventionalcommits.org
-[contrib-covenant-url]: https://osdn.net/projects/pkgbrowser/
-[mit-url]: https://opensource.org/licenses/MIT
-[semver-url]: https://semver.org
-[ups-pkg-url]: https://osdn.net/projects/pkgbrowser/
+[a8]: https://archiv8.github.io/
+[a8-cc-by-sa]: https://archiv8.github.io/licences/creative-commons
+[a8-cla]: https://archiv8.github.io/licenses/contributor-license-agreement
+[a8-changelog]: https://archiv8.github.io/contributing/style-guides/conventional-changelog
+[a8-commits]: https://archiv8.github.io/contributing/style-guides/conventional-commits
+[a8-conduct]: https://archiv8.github.io/community/code-of-conduct
+[a8-contrib-covenant]: https://archiv8.github.io/contributing/contributor-covenant
+[a8-contrib-people]: https://archiv8.github.io/people
+[a8-contrib-pkg-people]: https://github.com/Archiv8/pkgbrowser/people
+[a8-docs]: https://archiv8.github.io/docs
+[a8-docs-build]: https://archiv8.github.io/docs/build
+[a8-docs-install]: https://archiv8.github.io/docs/install
+[a8-docs-install]: https://archiv8.github.io/docs/update
+[a8-mit]: https://archiv8.github.io/licences/mit
+[a8-pkg-src]: https://github.com/Archiv8/pkgbrowser
+[a8-projects]: https://github.com/Archiv8
 
-[local-repo-arch-wiki]: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Custom_local_repository
-[aurutils-aur]: https://aur.archlinux.org/packages/aurutils
+[ups-pkg]: https://osdn.net/projects/pkgbrowser/
+
+[archwiki-aur]: https://wiki.archlinux.org/title/Arch_User_Repository
+[archwiki-aur-helpers]: https://wiki.archlinux.org/title/AUR_helpers
+[archwiki-aur-tug]: https://wiki.archlinux.org/title/AUR_Trusted_User_Guidelines
+[archwiki-buildchroot]: https://wiki.archlinux.org/title/DeveloperWiki:Building_in_a_clean_chroot
+[archwiki-chroot]: https://wiki.archlinux.org/title/Chroot
+[archwiki-local-repo]: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Custom_local_repository
+[archwiki-makepkg]: https://wiki.archlinux.org/title/Makepkg
+[archwiki-pkg-guidelines]: https://wiki.archlinux.org/title/Arch_package_guidelines
+[archwiki-proot]: https://wiki.archlinux.org/title/PRoot
+
+[aur]: https://aur.archlinux.org/
+
 [aurutils-github]: https://github.com/AladW/aurutils
-[buildchroot-arch-wiki]: https://wiki.archlinux.org/title/DeveloperWiki:Building_in_a_clean_chroot
-[chroot-arch-wiki]: https://wiki.archlinux.org/title/Chroot
-[fakechroot-pkg-url]: https://archlinux.org/packages/extra/x86_64/fakechroot/
-[fakechroot-url]: https://github.com/dex4er/fakechroot
+[aurutils-pkg-aur]: https://aur.archlinux.org/packages/aurutils
+[aurutils-pkg-a8]: https://github.com/Archiv8/aurutils
+
+[fakechroot-pkg]: https://archlinux.org/packages/extra/x86_64/fakechroot/
+[fakechroot-github]: https://github.com/dex4er/fakechroot
 [fakechroot-wiki]: https://github.com/dex4er/fakechroot/wiki
-[proot-arch-wiki]: https://wiki.archlinux.org/title/PRoot
-[proot-help-url]: https://proot-me.github.io/
+
 [proot-pkg-aur]: https://aur.archlinux.org/packages/proot/
-[proot-url]: https://github.com/proot-me/proot
-[ups-pkg-url]: https://osdn.net/projects/pkgbrowser/
+[proot-pkg-a8]: https://github.com/Archiv8/proot/
+[proot-github]: https://github.com/proot-me/proot
+[proot-help]: https://proot-me.github.io/
