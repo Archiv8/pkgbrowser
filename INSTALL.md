@@ -16,7 +16,7 @@ _This repository contains unofficial packaging for an installation of [PkgBrowse
 
 ## Dependencies
 
-There are no dependencies for [PkgBrowser][ups-pkg] that need to be made available prior to building and installing this package. Once  the packaging files have downloaded build and install using a preferred method.
+There are no dependencies for [PkgBrowser][ups-pkg] that need to be made available prior to building and installing this package. Once the [latest release has been downloaded][a8-pkg-get] build and install using a preferred method.
 
 The simplist method is to use:
 
@@ -25,6 +25,8 @@ The simplist method is to use:
 makepkg -si
 
 '''
+
+When using many custom packages it is often a good idea to use a custom local repository.
 
 _**Further instructions for [building][a8-docs-build] and [installing][a8-docs-install] packages are available on the [Archiv8 website][a8-docs] or [ArchWiki][arch-wiki]**_
 
@@ -93,6 +95,7 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [a8-docs-install]: https://archiv8.github.io/docs/install
 [a8-docs-install]: https://archiv8.github.io/docs/update
 [a8-mit]: https://archiv8.github.io/licences/mit
+[a8-pkg-get]: https://github.com/Archiv8/pkgbrowser
 [a8-pkg-src]: https://github.com/Archiv8/pkgbrowser
 [a8-projects]: https://github.com/Archiv8
 
