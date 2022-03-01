@@ -13,8 +13,26 @@ _Exploring and Sharing Custom [Arch Linux][arch] PKGBUILDs_
 _This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg], a utility for browsing [pacman databases][arch-pkgs] and the [AUR][arch-aur]._ _**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
 
 ---
+bb44669
 
-## Unreleased: (Items that have not been accepted yet)
+## :ledger: 2022-02-28 | 13:01 | [bb44669][bb44669]
+
+**Files:** INSTALL.md
+
++ Add download URL
++ Add link to documentation for creating a custom local repository
+
+## :ledger: 2022-02-24 | 16:48 | [fd2ad4a][fd2ad4a]
+
+**Files:** NEWS
+
++ Add change log from upstream
+
+## :ledger: 2022-02-24 | 16:48 | [618d7c5][618d7c5]
+
+**Files:** CC-BY-SA-V4.md CHANGELOG.md COMMITLOG.md HOW-TO-HELP.md INSTALL.md ISSUES.md LICENSE.md MIT.md README.md
+
++ Continue updating and refining documentation
 
 ## :ledger: 2022-02-21 | 18:48 | [ecc651d][ecc651d]
 
@@ -507,6 +525,9 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [proot-github]: https://github.com/proot-me/proot
 [proot-help]: https://proot-me.github.io/
 
+[bb44669]: https://github.com/Archiv8/pkgbrowser/commit/bb4466914720c4251f34f525704c71a3ad42ced8
+[fd2ad4a]: https://github.com/Archiv8/pkgbrowser/commit/fd2ad4ae661ab98d6bc5faa41c66f23c105d6909
+[618d7c5]: https://github.com/Archiv8/pkgbrowser/commit/618d7c5737ee8d1a45943404ee1105dafec1cc6e
 [ecc651d]: https://github.com/Archiv8/pkgbrowser/commit/ecc651d69094be3a5033a1aa3c42a8dcad9bebad
 [d71b1cc]: https://github.com/Archiv8/pkgbrowser/commit/d71b1cc0b1374987d4e51f57a77bf93b2c914b34
 [feb9f67]: https://github.com/Archiv8/pkgbrowser/commit/feb9f67f1cda75ef695f84eaf1141edeae3084b2
