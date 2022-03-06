@@ -1,184 +1,185 @@
-# [Archiv8][a8] COMMIT LOG
+# [Archiv8][a8]![External Link][ext-link_h1] COMMIT LOG
 
-_Exploring and Sharing Custom [Arch Linux][arch] PKGBUILDs_
+_Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBUILDs_
 
-[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant] [![Contributors License Agreement adopted][cla-badge]][a8-cla] [![Conventional Commits][commits-badge]][cc]
-
----
-
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
+[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant]![External Link][ext-link_h2] [![Contributors License Agreement adopted][cla-badge]][a8-cla]![External Link][ext-link_h2] [![Conventional Commits][commits-badge]][cc]![External Link][ext-link_h2]
 
 ---
 
-_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg], a utility for browsing [pacman databases][arch-pkgs] and the [AUR][arch-aur]._ _**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md) || ![Page Indicator][nav-r-em][Commitlog](COMMITLOG.md)![Page Indicator][nav-l-em]
 
 ---
-bb44669
 
-## :ledger: 2022-02-28 | 13:01 | [bb44669][bb44669]
+_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg]![External Link][ext-link], a utility for browsing [pacman databases][arch-pkgs]![External Link][ext-link] and the [AUR][arch-aur][arch-aur]![External Link][ext-link]_
+
+_**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project**_
+
+---
+
+## :ledger: 2022-02-28 | 13:01 | [bb44669][bb44669]![External Link][ext-link_h2]
 
 **Files:** INSTALL.md
 
 + Add download URL
 + Add link to documentation for creating a custom local repository
 
-## :ledger: 2022-02-24 | 16:48 | [fd2ad4a][fd2ad4a]
+## :ledger: 2022-02-24 | 16:48 | [fd2ad4a][fd2ad4a]![External Link][ext-link_h2]
 
 **Files:** NEWS
 
 + Add change log from upstream
 
-## :ledger: 2022-02-24 | 16:48 | [618d7c5][618d7c5]
+## :ledger: 2022-02-24 | 16:48 | [618d7c5][618d7c5]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md CHANGELOG.md COMMITLOG.md HOW-TO-HELP.md INSTALL.md ISSUES.md LICENSE.md MIT.md README.md
 
 + Continue updating and refining documentation
 
-## :ledger: 2022-02-21 | 18:48 | [ecc651d][ecc651d]
+## :ledger: 2022-02-21 | 18:48 | [ecc651d][ecc651d]![External Link][ext-link_h2]
 
 **Files:** COMMITLOG.md
 
 + Add as placeholder file
 
-## :ledger: 2022-02-21 | 18:34 | [d71b1cc][d71b1cc]
+## :ledger: 2022-02-21 | 18:34 | [d71b1cc][d71b1cc]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md CHANGELOG.md HOW-TO-HELP.md INSTALL.md ISSUES.md LICENSE.md MIT.md README.md
 
 + Changed and added links to match page outline of [Archiv8 website][a8] to prepare for site launch (not yet scheduled)
 + Updated navigation links at top of markdown files in repository to include a change log.
 
-## :satellite: 2022-01-31 | 14:04 | [feb9f67][feb9f67]
+## :satellite: 2022-01-31 | 14:04 | [feb9f67][feb9f67]![External Link][ext-link_h2]
 
 **Files:** .SRCINFO PKGBUILD
 
 + Update generated SHAs
 cb31f77]
 
-## :speech_balloon: 2022-01-31 | 14:01 | [cb31f77][cb31f77]
+## :speech_balloon: 2022-01-31 | 14:01 | [cb31f77][cb31f77]![External Link][ext-link_h2]
 
 **Files:** CHANGELOG.md
 
 + Update to show recent changes
 
-## :satellite: 2022-01-28 | 13:44 | [5042f3c][5042f3c]
+## :satellite: 2022-01-28 | 13:44 | [5042f3c][5042f3c]![External Link][ext-link_h2]
 
 **Files:** INSTALL.md
 
 + Continuing expanding installation documentation
 
-## :satellite: 2022-01-28 | 16:08 | [e7edd80][e7edd80]
+## :satellite: 2022-01-28 | 16:08 | [e7edd80][e7edd80]![External Link][ext-link_h2]
 
 **Files:** .SRCINFO, PKGBUILD
 
 + Update generated SHAs
 
-## :speech_balloon:  2022-01-28 | 16:08 | [b2546fd][b2546fd]
+## :speech_balloon:  2022-01-28 | 16:08 | [b2546fd][b2546fd]![External Link][ext-link_h2]
 
 + DOC: Update changes
 
-## :wrench: 2022-01-28 | 16:08 | [573e606][573e606]
+## :wrench: 2022-01-28 | 16:08 | [573e606][573e606]![External Link][ext-link_h2]
 
 **Files:** MIT.md
 
 + DOC: Fix broken links
 
-## :wrench: 2022-01-28 | 15:56 | [cbe01f6][cbe01f6]
+## :wrench: 2022-01-28 | 15:56 | [cbe01f6][cbe01f6]![External Link][ext-link_h2]
 
 **Files:** LICENSE.md
 
 + DOC: Fix broken links
 
-## :wrench: 2022-01-28 | 15:56 | [247df42][247df42]
+## :wrench: 2022-01-28 | 15:56 | [247df42][247df42]![External Link][ext-link_h2]
 
 **Files:** LICENSE.md
 
 + DOC: Fix broken links
 
-## :wrench: 2022-01-28 | 15:51 | [c6a28c1][c6a28c1]
+## :wrench: 2022-01-28 | 15:51 | [c6a28c1][c6a28c1]![External Link][ext-link_h2]
 
 **Files:** ISSUES.md
 
 + DOC: Fix broken links
 
-## :wrench: 2022-01-28 | 15:40 | [51b10c5][51b10c5]
+## :wrench: 2022-01-28 | 15:40 | [51b10c5][51b10c5]![External Link][ext-link_h2]
 
 **Files:** ISSUES.md
 
 + DOC: Fix broken links
 
-## :wrench: 2022-01-28 | 15:28 | [7bf1cda][7bf1cda]
+## :wrench: 2022-01-28 | 15:28 | [7bf1cda][7bf1cda]![External Link][ext-link_h2]
 
 **Files:** ISSUES.md
 
 + DOC: Fix broken links
 
-## :wrench: 2022-01-28 | 15:21 | [4a93226][4a93226]
+## :wrench: 2022-01-28 | 15:21 | [4a93226][4a93226]![External Link][ext-link_h2]
 
 **Files:** HOW-TO-HELP.md
 
 + DOC: Fix broken links
 
-## :wrench: 2022-01-28 | 15:21 | [f9e55f1][f9e55f1]
+## :wrench: 2022-01-28 | 15:21 | [f9e55f1][f9e55f1]![External Link][ext-link_h2]
 
 **Files:** HOW-TO-HELP.md
 
 + DOC: Fix broken links
 
-## :wrench: 2022-01-28 | 15:10 | [8b2fd71][8b2fd71]
+## :wrench: 2022-01-28 | 15:10 | [8b2fd71][8b2fd71]![External Link][ext-link_h2]
 
 **Files:** ISSUES.md
 
 + DOC: Fix broken links
 
-## :wrench: 2022-01-28 | 14:53 | [2efc368][2efc368]
+## :wrench: 2022-01-28 | 14:53 | [2efc368][2efc368]![External Link][ext-link_h2]
 
 **Files:** README.md
 
 + DOC: Tidy links
 
-## :wrench: 2022-01-28 | 14:50| [9c845b4][9c845b4]
+## :wrench: 2022-01-28 | 14:50| [9c845b4][9c845b4]![External Link][ext-link_h2]
 
 **Files:** MIT.md
 
 + DOC: Tidy links
 
-## :wrench: 2022-01-28 | 14:47 | [f2cbef5][f2cbef5]
+## :wrench: 2022-01-28 | 14:47 | [f2cbef5][f2cbef5]![External Link][ext-link_h2]
 
 **Files:** LICENSE.md
 
 + DOC: Tidy links
 
-## :wrench: 2022-01-28 | 14:43 | [d76dd69][d76dd69]
+## :wrench: 2022-01-28 | 14:43 | [d76dd69][d76dd69]![External Link][ext-link_h2]
 
 **Files:** ISSUES.md
 
 + DOC: Tidy links
 
-## :wrench: 2022-01-28 | 14:34 | [49c9499][49c9499]
+## :wrench: 2022-01-28 | 14:34 | [49c9499][49c9499]![External Link][ext-link_h2]
 
 **Files:** INSTALL.md
 
 + DOC: Tidy links
 
-## :wrench: 2022-01-28 | 14:23 | [86d960e][86d960e]
+## :wrench: 2022-01-28 | 14:23 | [86d960e][86d960e]![External Link][ext-link_h2]
 
 **Files:** INSTALL.md
 
 + DOC: Tidy links
 
-## :wrench: 2022-01-28 | 14:17 | [cebb591][cebb591]
+## :wrench: 2022-01-28 | 14:17 | [cebb591][cebb591]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md
 
 + DOC: Tidy links
 
-## :phone: 2022-01-28 | 14:03 | [628c727][628c727]
+## :phone: 2022-01-28 | 14:03 | [628c727][628c727]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md
 
 + DOC: Fix links and capitalization
 
-## :phone: 2022-01-24 | 18:33 | [0d9bfbd][0d9bfbd]
+## :phone: 2022-01-24 | 18:33 | [0d9bfbd][0d9bfbd]![External Link][ext-link_h2]
 
 **Files:** INSTALL.md
 
@@ -189,7 +190,7 @@ cb31f77]
   + Clean links
 + Begin task of describing build and install processes
 
-## :phone: 2022-01-24 | 18:37 | [6a1f119][6a1f119]
+## :phone: 2022-01-24 | 18:37 | [6a1f119][6a1f119]![External Link][ext-link_h2]
 
 **Files:** README.md
 
@@ -199,7 +200,7 @@ cb31f77]
     + Tidy footer text and shields
   + Clean links
 
-## :phone: 2022-01-24 | 18:33 | [04d497b][04d497b]
+## :phone: 2022-01-24 | 18:33 | [04d497b][04d497b]![External Link][ext-link_h2]
 
 **Files:** MIT.md
 
@@ -209,7 +210,7 @@ cb31f77]
     + Tidy footer text and shields
   + Clean links
 
-## :phone: 2022-01-24 | 17:53 | [8f66617][8f66617]
+## :phone: 2022-01-24 | 17:53 | [8f66617][8f66617]![External Link][ext-link_h2]
 
 **Files:** LICENSE.md
 
@@ -219,7 +220,7 @@ cb31f77]
     + Tidy footer text and shields
   + Clean links
 
-## :phone: 2022-01-24 | 17:51 | [411b108][411b108]
+## :phone: 2022-01-24 | 17:51 | [411b108][411b108]![External Link][ext-link_h2]
 
 **Files:** ISSUES.md
 
@@ -229,7 +230,7 @@ cb31f77]
     + Tidy footer text and shields
   + Clean links
 
-## :phone: 2022-01-24 | 17:49 | [9fad152][9fad152]
+## :phone: 2022-01-24 | 17:49 | [9fad152][9fad152]![External Link][ext-link_h2]
 
 **Files:** HOW-TO-HELP.md
 
@@ -239,7 +240,7 @@ cb31f77]
     + Tidy footer text and shields
   + Clean links
 
-## :phone: 2022-01-24 | 17:47 | [427876e][427876e]
+## :phone: 2022-01-24 | 17:47 | [427876e][427876e]![External Link][ext-link_h2]
 
 **Files:** CHANGELOG.md
 
@@ -249,7 +250,7 @@ cb31f77]
     + Tidy footer text and shields
   + Clean links
 
-## :phone: 2022-01-24 | 17:28 | [46b042a][46b042a]
+## :phone: 2022-01-24 | 17:28 | [46b042a][46b042a]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md
 
@@ -259,7 +260,7 @@ cb31f77]
     + Tidy footer text and shields
   + Clean links
 
-## :shower: 2022-01-11 | 15:00 | [03e9490][03e9490]
+## :shower: 2022-01-11 | 15:00 | [03e9490][03e9490]![External Link][ext-link_h2]
 
 **Files:** .SRCINFO, CHANGELOG.md, PKGBUILD
 
@@ -268,7 +269,7 @@ cb31f77]
   + Update SHA's in PKGBrowser
   + Update change log
 
-## :shower: 2022-01-11 | 13:57 | [5ebe917][5ebe917]
+## :shower: 2022-01-11 | 13:57 | [5ebe917][5ebe917]![External Link][ext-link_h2]
 
 **Files:** PKGBUILD
 
@@ -279,13 +280,13 @@ cb31f77]
   + Add upstream license and documentation to install
   + Install all Archiv8 documents to single directory to prevent broken links
 
-## :wrench: 2022-01-11 | 13:57 | [7b9abe4][7b9abe4]
+## :wrench: 2022-01-11 | 13:57 | [7b9abe4][7b9abe4]![External Link][ext-link_h2]
 
 **Files:** MIT.md
 
 + Add new line to end of file
 
-## :wrench: 2022-01-11 | 13:57 | [88b153d][88b153d]
+## :wrench: 2022-01-11 | 13:57 | [88b153d][88b153d]![External Link][ext-link_h2]
 
 **Files:**  LICENSE.md
 
@@ -298,13 +299,13 @@ cb31f77]
 + Added suggested apps and links to start developing the install file as a useful
 reference.
 
-## :wrench: 2022-01-09 | 14:06 | [3734ddb][3734ddb]
+## :wrench: 2022-01-09 | 14:06 | [3734ddb][3734ddb]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md, CHANGELOG.md, HOW-TO-HELP.md, INSTALL.md, ISSUES.md, LICENSE.md, MIT.md, PKGBUILD, README.md
 
 + Correct CHANGELOG to Changelog in menus
 
-## :toolbox: 2022-01-09 | 12:17 | [c987205][c987205]
+## :toolbox: 2022-01-09 | 12:17 | [c987205][c987205]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md, CHANGELOG.md, COMMITLOG.md, HOW-TO-HELP.md, INSTALL.md, ISSUES.md, LICENSE.md, MIT.md, README.md
 
@@ -315,19 +316,19 @@ reference.
 + Make change log current with all commits
 + Remove commit log
 
-## :toolbox: 2022-01-08 | 19:54 | SHA: [5b966c2][5b966c2]
+## :toolbox: 2022-01-08 | 19:54 | SHA: [5b966c2][5b966c2]![External Link][ext-link_h2]
 
 **Files:** CHANGELOG.md
 
 + Begin to add changes to file.
 
-## :satellite: 2022-01-04 | 20:30 | SHA: [7636c61][7636c61]
+## :satellite: 2022-01-04 | 20:30 | SHA: [7636c61][7636c61]![External Link][ext-link_h2]
 
 **Files:** .SRCINFO
 
 + Add auto-generated .SRCINFO file
 
-## :phone: 2022-01-04 | 20:24 | SHA: [5c776de][5c776de]
+## :phone: 2022-01-04 | 20:24 | SHA: [5c776de][5c776de]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md, CHANGELOG.md, COMMITLOG.md, INSTALL.md, ISSUES.md, LICENSE.md, MIT.md, README.md
 
@@ -337,37 +338,37 @@ reference.
   + Add reserves the right to change copyright
   + Add informative footer across all documents
 
-## :phone: 2022-01-04 | 20:20 | SHA: [123f318][123f318]
+## :phone: 2022-01-04 | 20:20 | SHA: [123f318][123f318]![External Link][ext-link_h2]
 
 **Files:** HOW-TO-HELP.md
 
 + Add file to how to help document to assist community building.
 
-## :toolbox: 2022-01-04 | 20:17 | SHA: [854d018][854d018]
+## :toolbox: 2022-01-04 | 20:17 | SHA: [854d018][854d018]![External Link][ext-link_h2]
 
 **Files:** .prettier.json, .prettierignore
 
 + Add prettier lint files as placeholders
 
-## :wrench: 2022-01-04 | 20:14 | SHA: [ad30098][ad30098]
+## :wrench: 2022-01-04 | 20:14 | SHA: [ad30098][ad30098]![External Link][ext-link_h2]
 
 **Files:** .editorconfig
 
 + Updated created and last update dates
 
-## :toolbox: 2022-01-04 | 20:08 | SHA: [2e74560][2e74560]
+## :toolbox: 2022-01-04 | 20:08 | SHA: [2e74560][2e74560]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md, CHANGELOG.md, COMMITLOG.md, HOW-TO-HELP.md, INSTALL.md, ISSUES.md, LICENSE.md, MIT.md, README.md
 
 + Add README type files for inclusion in installation
 
-## :hash: 2022-01-04 | 10:44 | SHA: [3646d70][3646d70]
+## :hash: 2022-01-04 | 10:44 | SHA: [3646d70][3646d70]![External Link][ext-link_h2]
 
 **Files:** CHANGELOG.md, COMMITLOG.md, INSTALL.md, ISSUES.md, LICENSE.md, MIT.md, README.md
 
 + Add new integrity checks for files to PKGBUILD
 
-## :shower: 2022-01-04 | 10:44 | SHA: [1dddc85][1dddc85]
+## :shower: 2022-01-04 | 10:44 | SHA: [1dddc85][1dddc85]![External Link][ext-link_h2]
 
 **Files:** CHANGELOG.md, COMMITLOG.md, INSTALL.md, ISSUES.md, LICENSE.md, MIT.md, README.md
 
@@ -382,7 +383,7 @@ reference.
     + Validated links
     + Updated links to placeholders for easier updates
 
-## :shower: 2022-01-04 | 10:20 | SHA: [38b7056][38b7056]
+## :shower: 2022-01-04 | 10:20 | SHA: [38b7056][38b7056]![External Link][ext-link_h2]
 
 **Files:** CC-BY-SA-V4.md
 
@@ -400,13 +401,13 @@ Tidy file add markdownlint rules
   + Added &lt;hr&gt; between license sections
   + Removed unnecessary numbering on lists
 
-## :shower: 2022-01-04 | 10:17 | SHA: [c2ccc0e][c2ccc0e]
+## :shower: 2022-01-04 | 10:17 | SHA: [c2ccc0e][c2ccc0e]![External Link][ext-link_h2]
 
 **Files:** .markdownlint.json
 
 + Add markdown linting rules
 
-## :shower: 2021-12-30 | 15:46 | SHA: [303ca6c][303ca6c]
+## :shower: 2021-12-30 | 15:46 | SHA: [303ca6c][303ca6c]![External Link][ext-link_h2]
 
 **Files:** PKGBUILD
 
@@ -415,7 +416,7 @@ Tidy file add markdownlint rules
   + Add failsafe to build() function so if "cd" fails there is more information
   + And a  message with URL to encourage user to report message.
 
-## :shower: 2021-12-30 | 15:46 | SHA: [5d5f81a][5d5f81a]
+## :shower: 2021-12-30 | 15:46 | SHA: [5d5f81a][5d5f81a]![External Link][ext-link_h2]
 
 **Files:** .editorconfig, .gitattributes, .gitignore, .htmlvalidate.json, .remarkignore, .remarkrc, .shellcheckrc, CC-BY-SA-V4.md, CHANGELOG.md, COMMITLOG.md, INSTALL.md, ISSUES.md, LICENSE.md, MIT.md, PKGBUILD, README.md, pkgbrowser.install
 
@@ -424,7 +425,7 @@ Tidy file add markdownlint rules
   + Add failsafe to build() function so if "cd" fails there is more information
   + And a  message with URL to encourage user to report message.
 
-## :tada: 2021-12-28 | 16:30 | SHA: [4669e11][4669e11]
+## :tada: 2021-12-28 | 16:30 | SHA: [4669e11][4669e11]![External Link][ext-link_h2]
 
 **Files:** PKGBUILD
 
@@ -432,25 +433,25 @@ Tidy file add markdownlint rules
 
 ---
 
-[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa]
+[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa]![External Link][ext-link_h2]
 
-[Documentation for this project is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa]
+[Documentation for this project is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa]![External Link][ext-link]
 
-Any original software produced for [Archiv8][a8] and / or quoted within the documentation is released under the MIT License
+Any original software produced for [Archiv8][a8]![External Link][ext-link] and / or quoted within the documentation is released under the MIT License
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors
 
-Thanks to those who have contributed to [Archiv8][a8-contrib-people] and [this package in particular][a8-contrib-pkg-people]
+Thanks to those who have contributed to [Archiv8][a8-contrib-people]![External Link][ext-link] and [this package in particular][a8-contrib-pkg-people]![External Link][ext-link]
 
-(c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8]
+(c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8]![External Link][ext-link]
 
 _**Ross Clark and Archiv8 reserve the right to update or change the license for code or documentation under their ownership.  Notification of changes to this packaging will appear CHANGELOG.md**_
 
 ---
 
-[![Conventional Commits, version 1.0.0, adopted][commits-badge]][commits]
+[![Conventional Commits, version 1.0.0, adopted][commits-badge]][commits]![External Link][ext-link_h2]
 
-[![Code Released Under MIT License][mit-badge]][mit] [![Documentation Released Under Creative Commons, Attribution ShareAlike, 4.0.0 License][cc-badge]][cc-terms]
+[![Code Released Under MIT License][mit-badge]][mit]![External Link][ext-link_h2] [![Documentation Released Under Creative Commons, Attribution ShareAlike, 4.0.0 License][cc-badge]][cc-terms]![External Link][ext-link_h2]
 
 [cc-badge]: https://img.shields.io/badge/License-CC%20by%20SA%204.0.0-informational.svg
 [cc-large-badge]: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg
@@ -460,6 +461,15 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [covenant-badge]: https://img.shields.io/badge/Contributor%20Covenant-2.0.0-informational.svg
 [mit-badge]: https://img.shields.io/badge/License-MIT-informational.svg
 [semver-badge]: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-informational.svg
+
+[ext-link]: images/ext-link.svg
+[ext-link_h1]: images/ext-link_h1.svg
+[ext-link_h2]: images/ext-link_h2.svg
+
+[nav-r-em]: images/arrow-right_emphasis.svg
+[nav-l-em]: images/arrow-left_emphasis.svg
+[nav-r]: images/arrow-right.svg
+[nav-l]: images/arrow-left.svg
 
 [cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
 [cc-compat]: http://creativecommons.org/compatiblelicenses

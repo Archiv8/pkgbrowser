@@ -1,34 +1,42 @@
-# [Archiv8][a8] HOW TO HELP
+# [Archiv8][a8]![External Link][ext-link_h1] HOW TO HELP
 
-_Exploring and Sharing Custom [Arch Linux][arch] PKGBUILDs_
+_Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBUILDs_
 
-[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant] [![Contributors License Agreement adopted][cla-badge]][a8-cla] [![Conventional Commits][commits-badge]][cc]
-
----
-
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || [How to help](HOW-TO-HELP.md) || [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
+[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant]![External Link][ext-link_h2] [![Contributors License Agreement adopted][cla-badge]][a8-cla]![External Link][ext-link_h2] [![Conventional Commits][commits-badge]][cc]![External Link][ext-link_h2]
 
 ---
 
-_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg], a utility for browsing [pacman databases][arch-pkgs] and the [AUR][arch-aur]._ _**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project.**_
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Licensing](LICENSE.md) || ![Page Indicator][nav-r-em][How to help](HOW-TO-HELP.md)![Page Indicator][nav-l-em] || [Changelog](CHANGELOG.md) || [Commitlog](COMMITLOG.md)
+
+---
+
+_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg]![External Link][ext-link], a utility for browsing [pacman databases][arch-pkgs]![External Link][ext-link] and the [AUR][arch-aur][arch-aur]![External Link][ext-link]_
+
+_**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project**_
 
 ---
 
 ---
 
-[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa]
+[![Creative Commons Attribution-ShareAlike 4.0 International License][cc-large-badge]][cc-by-sa]![External Link][ext-link_h2]
 
-[Documentation for this project is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa]
+[Documentation for this project is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa]![External Link][ext-link]
 
-Any original software produced for [Archiv8][a8] and / or quoted within the documentation is released under the MIT License
+Any original software produced for [Archiv8][a8]![External Link][ext-link] and / or quoted within the documentation is released under the MIT License
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors
 
-Thanks to those who have contributed to [Archiv8][a8-contrib-people] and [this package in particular][a8-contrib-pkg-people]
+Thanks to those who have contributed to [Archiv8][a8-contrib-people]![External Link][ext-link] and [this package in particular][a8-contrib-pkg-people]![External Link][ext-link]
 
-(c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8]
+(c) Documentation and Original Code, 2017 - 2022 Ross Clark and [Archiv8][a8]![External Link][ext-link]
 
-_**Ross Clark and Archiv8 reserve the right to update or change the license for code or documentation under their ownership.  Notification of changes to this packaging will appear CHANGELOG.md**_
+_**Ross Clark and Archiv8 reserve the right to update or change the license for code or documentation under their ownership.  Notification of changes to this packaging will appear [CHANGELOG.md](CHANGELOG.md)**_
+
+---
+
+[![Conventional Commits, version 1.0.0, adopted][commits-badge]][commits]![External Link][ext-link_h2]
+
+[![Code Released Under MIT License][mit-badge]][mit]![External Link][ext-link_h2] [![Documentation Released Under Creative Commons, Attribution ShareAlike, 4.0.0 License][cc-badge]][cc-terms]![External Link][ext-link_h2]
 
 ---
 
@@ -44,6 +52,15 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [covenant-badge]: https://img.shields.io/badge/Contributor%20Covenant-2.0.0-informational.svg
 [mit-badge]: https://img.shields.io/badge/License-MIT-informational.svg
 [semver-badge]: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-informational.svg
+
+[ext-link]: images/ext-link.svg
+[ext-link_h1]: images/ext-link_h1.svg
+[ext-link_h2]: images/ext-link_h2.svg
+
+[nav-r-em]: images/arrow-right_emphasis.svg
+[nav-l-em]: images/arrow-left_emphasis.svg
+[nav-r]: images/arrow-right.svg
+[nav-l]: images/arrow-left.svg
 
 [cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
 [cc-compat]: http://creativecommons.org/compatiblelicenses
