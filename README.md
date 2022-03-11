@@ -11,9 +11,11 @@ _Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBU
 
 ## About This Repository
 
-_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg]![External Link][ext-link], a utility for browsing [pacman databases][arch-pkgs]![External Link][ext-link] and the [AUR][arch-aur][arch-aur]![External Link][ext-link]_
+_This repository contains unofficial packaging for an installation of [PkgBrowser][ups-pkg]![External Link][ext-link], a utility for browsing [pacman databases][arch-pkgs]![External Link][ext-link] and the [AUR][arch-aur]![External Link][ext-link]_
 
 _**It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the PkgBrowser project**_
+
+## Installation
 
 Information for building and installing the package is available in the [INSTALL.md file](INSTALL.md)
 
@@ -38,12 +40,6 @@ _**Ross Clark and Archiv8 reserve the right to update or change the license for 
 [![Conventional Commits, version 1.0.0, adopted][commits-badge]][commits]![External Link][ext-link_h1]
 
 [![Code Released Under MIT License][mit-badge]][mit]![External Link][ext-link_h2] [![Documentation Released Under Creative Commons, Attribution ShareAlike, 4.0.0 License][cc-badge]][cc-terms]![External Link][ext-link_h2]
-
----
-
-[![Conventional Commits, version 1.0.0, adopted][commits-badge]][commits]
-
-[![Code Released Under MIT License][mit-badge]][mit] [![Documentation Released Under Creative Commons, Attribution ShareAlike, 4.0.0 License][cc-badge]][cc-terms]
 
 [cc-badge]: https://img.shields.io/badge/License-CC%20by%20SA%204.0.0-informational.svg
 [cc-large-badge]: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg
