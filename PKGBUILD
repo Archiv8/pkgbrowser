@@ -1,28 +1,41 @@
 #!/bin/bash
 
+# Based on the original PKGBUILD and associated files by kachelaqa <kachelaqa at gmail dot com>
+
 # Disable various shellcheck rules that produce false positives in this file.
 # Repository rules should be added to the .shellcheckrc file located in the
 # repository root directory, see https://github.com/koalaman/shellcheck/wiki
 # and https://archiv8.github.io for further information.
-# ToDo: Add files: User documentation
-# ToDo: Add files: Tooling
-# FixMe: Namcap warnings and errors
+# [ToDo]: Add files: User documentation
+# [ToDo]: Add files: Tooling
+# [FixMe]: Namcap warnings and errors
 
-# Maintainer: Ross Clark <archiv8@artisteducator.com>
-# Contributor: Ross Clark <archiv8@artisteducator.com>
+# Maintainer: Ross Clark <https://github.com/Archiv8/pkgbrowser/discussions>
+# Contributor: Ross Clark <https://github.com/Archiv8/pkgbrowser/discussions>
+
+_realname="PkgBrowser"
 
 # pkgbase=""
 pkgname="pkgbrowser"
 pkgdesc="A utility for browsing pacman databases and the AUR"
 pkgver=0.27
-pkgrel=1
+pkgrel=2
 # epoch=
 url="https://osdn.net/projects/${pkgname}"
-license=("GPL2")
-arch=("x86_64")
+license=(
+  "GPL2"
+)
+arch=(
+  "x86_64"
+)
 # groups=()
-depends=("pacman" "hicolor-icon-theme")
-makedepends=("python-pyqt5")
+depends=(
+  "pacman"
+  "hicolor-icon-theme"
+)
+makedepends=(
+  "python-pyqt5"
+)
 # checkdepends=()
 # optdepends=()
 # provides=()
@@ -39,48 +52,71 @@ source=(
   "INSTALL.md"
   "ISSUES.md"
   "README.md"
+  "image_A8-logo.svg"
+  "image_arrow-left_emphasis.svg"
+  "image_arrow-left.svg"
+  "image_arrow-right_emphasis.svg"
+  "image_arrow-right.svg"
+  "image_ext-link_h1.svg"
+  "image_ext-link_h2.svg"
+  "image_ext-link_lrg.svg"
+  "image_ext-link.svg"
 )
 # noextract=()
 sha512sums=(
   "238bcecfe7e4f46af2909df3d82cc4259982691c540c45db0ee8f535b3f282510ffdd423b4911bbfb143c91b1eb8b392c1f9de49ac98830842bf01c9f20d0223"
-  "d808c073fa46aae56ebae14d5e16c06bc93142c4b21fb7c5e6e34e0f62f8407de400aa5aba931ca8a8fb03a9dc122018af910fa6cc8361c9dc81d2faf946a512"
-  "9beabce4d52e48e4758ef570634d3fb268136a71615c53c922dab19a70f5dd48fa41d3a4033a312d35a3da40fb71b61df161e60cbb6828a37d89501885ef8899"
-  "0cc9d1e43a5d367d722cf54ede15e2d771908d2550ba8b96778fe956d2530b18722de87c32873862a5282b2166dcbb7576650dd8b01aa83420ebc0c2c365f8d9"
-  "ceae2f41752053520ef5ff91112ea54ca643996c648c16e4c8ffa126410f3cba8aac9b8c50da7d048673db0a6e7597c6c79396c12bae87ce247bff4a56322932"
-  "970fb5584cb02033d6d592beda73153853f06fa433bff783fce73eb07684c3aae5e9f49f23bebf52970dedefdd84e491a3ee6ebaa6a46fb5803b1e4b418ce180"
-  "f04bee3045e71788b6024569130a078fbacb4cd15944065fc9d23cbf2707458e1d93b45f5decdd7b17e4882a61b681c76b82c25416e795da4b6daefa3bbf4b4b"
-  "11a286c5a97a0469f64a14e2b645891cbd36c017005ce05463f95552d886bbb8b7749c989fc3b27467505a0fd0b7c379325abae0a71d6a4cb9ae478be6b48da7"
-  "28274fcc927de9e826dfb8d28f0428aefd3602601dc09112bcb22251d211cb4a323d1388495b4f153cb8c8e2b99cd024473c67a1c7ae2d7d9c1f712c2fa02802"
+  "d1221a8da96a81134d82d81b365c81aa9f4982612849c9fdb123a1100d9c8a34e0e4fd98a612f75b5ec88cc9e6e2806f0aa153cce11b2c5dc6f37229b6f8080d"
+  "bcae329216f388a567614a44d0d088fee9b2f55eec37229d9725b1b8aea75dd9430245ed34e3d408a83a5b63574b8feb5c169abe9d1b509909fab76a09bec483"
+  "a458945e6c41f8081a0bb3fddad3c4340e5c897f371f2d11a9274a0b9deb8085c59e0f32a2e7fe6a1903dc5c75b826fb51cf3910ea3dd97d8fd01adcb8c215dc"
+  "fc3f62044d363ff6d49b6b07657fea0b643dfeea63d94605eb469ff98ef197fa55043e328fa914edaeeebe66b24865fff07d80c0cba31be50352d1283a69a2ad"
+  "f7e8860e884f500a060dc7a4b5ec01d0d13c9b18eed97e94aa928495e83250a4e5fed22dccdbae41365b155c362d66b63996e182eee57622f10a952524fe55e9"
+  "2b32bb0e8dcc993df9f2f5fb0b53651c22173800fce37e88daa1701c0fad4b0defb9a4a9170f634eca2a03a51dda69e3e9ebb597d4f42c2e63b3bc73855d2426"
+  "0514efbb26fc798d6865482ae8a0b6760b0abfe1bccd88741aa49d52a151f153204c7b0101b0f60eb3c9e27d2cdb27fa081f32713d3d8396b46c0f54cb7d7cb7"
+  "2a0960558090b4b06a6cefd8ce61c1ab5c24fffb9ef0aab09f80b37c6eaf3936d9ce7babfa3f6002872c2e2d82f715fcd1d74a9872e3212c4748ff19920bbedb"
+  "21e18c4d80fb1a3d709c3483903b7975bc9f6eb7cf7fe31a9b7c6eea2d98d99a4c2463ddbc2973d3369b5d14bf498659f6488c8f9ed6c2f42258649f93946d76"
+  "e17146a1a3a8820d4d07b392ed8901b23dc93e1d9534159f6c673cddf76c303e91aaa5cb24cb4427062b64a3654bae4e714dfbd200e745ec0704be011b14c050"
+  "f64078216739a1fb6c2ec2f9eb31bcaa31a8d089735ab3c6e2acac792eabfb4d5359383fdd5d79b27716628ea01a0cacb29f57ec138d4b46873ed6a34e6e779b"
+  "2b4622b50ef3dd7ac80f7abe92618d9b11f4f7aa3e9f6eefd90a07b7c7f119a796943a06baf57c03270bcf5b511db8bb4d56c457c23dc6e1b1b1600d9e0b0347"
+  "2559bb8198cabbf6a534be764277c6b9101a20b539d6ae4ae4689c2c38d672e70f228118865950de317facda4ce126b63499b7eb6d5b4799359203064c0634c6"
+  "658272178948c414d129508e2e536daa8a5f1cd106b7e2f95e9159dfb35cdb617d72ad0cb911ea1b70e45fb82fbb37b4397baefde416110435d25e02691b79aa"
 )
 # validpgpkeys=()
 
 build() {
 
-  cd "${srcdir}/${pkgname}-${pkgver}" || printf "\n\n==> Error: Failed to find source code directory needed to build, %s. This is likely to be an error with the packaging:\n \n\e]8;;https://github.com/Archiv8/%s/issues/new?labels=priority: CRITICAL :clock1:,status: new :ear:,element: package :gift:,type: bug :bug:&title=[Archiv8: %s]  Missing+source+code+directory\e\\Please file an issue to help Archiv8 to continue to improve\e]8;;\e\\ \n\nHold the ctrl button whilst clicking the link to open an issue form\n\n\n" "${pkgname}" "${pkgname}" "${pkgname}"
+  cd "${srcdir}/${pkgname}-${pkgver}" || printf "\n\e[31;1m==> ERROR:\e[1m Failed to find the source code directory needed to build %s\n\e[0m \e[31;1m > \e[0m\e]8;;https://github.com/Archiv8/%s/issues/new?labels=priority: CRITICAL :clock1:,status: new :ear:,element: package :gift:,type: issue :bug:,wait: triage :hospital:&title=[Archiv8: %s] Missing+source+code+directory\e\\Please report the issue on GitHub\e]8;;\e\\ \n \e[31;1m >\e[0m Tip: Hold ctrl and click the link above to open the form in your browser\n\n" "${_realname}" "${pkgname}" "${pkgname}"
 
   make PREFIX="/usr"
 }
 
 package() {
 
-  cd "${srcdir}/${pkgname}-${pkgver}" || printf "\n\n==> Error: Failed to find source code directory needed to build, %s. This is likely to be an error with the packaging:\n \n\e]8;;https://github.com/Archiv8/%s/issues/new?labels=priority: CRITICAL :clock1:,status: new :ear:,element: package :gift:,type: bug :bug:&title=[Archiv8: %s]  Missing+source+code+directory\e\\Please file an issue to help Archiv8 to continue to improve\e]8;;\e\\ \n\nHold the ctrl button whilst clicking the link to open an issue form\n\n\n" "${pkgname}" "${pkgname}" "${pkgname}"
+  cd "${srcdir}/${pkgname}-${pkgver}" || printf "\n\e[31;1m==> ERROR:\e[1m Failed to find the source code directory needed to build %s\n\e[0m \e[31;1m > \e[0m\e]8;;https://github.com/Archiv8/%s/issues/new?labels=priority: CRITICAL :clock1:,status: new :ear:,element: package :gift:,type: issue :bug:,wait: triage :hospital:&title=[Archiv8: %s] Missing+source+code+directory\e\\Please report the issue on GitHub\e]8;;\e\\ \n \e[31;1m >\e[0m Tip: Hold ctrl and click the link above to open the form in your browser\n\n" "${_realname}" "${pkgname}" "${pkgname}"
 
   make PREFIX="/usr" DESTDIR="${pkgdir}" install
 
-  install -Dm 644 "${srcdir}/${pkgname}-${pkgver}/doc/manual.html" "${pkgdir}/usr/share/docs${pkgname}/manual.html"
+  install -Dm 644 "${srcdir}/${pkgname}-${pkgver}/doc/manual.html" "${pkgdir}/usr/share/doc/${pkgname}/manual.html"
 
   install -Dm 644 "${srcdir}/${pkgname}-${pkgver}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 
   # Create Archiv8 documentation folder
   install -dvm 755 "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/"
 
+  # Install documentation images Archiv8 documentation folder
+  install -Dm 644 "${srcdir}/image_A8-logo.svg" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/image_A8-logo.svg"
+  install -Dm 644 "${srcdir}/image_arrow-left_emphasis.svg" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/image_arrow-left_emphasis.svg"
+  install -Dm 644 "${srcdir}/image_arrow-left.svg" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/image_arrow-left.svg"
+  install -Dm 644 "${srcdir}/image_arrow-right_emphasis.svg" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/image_arrow-right_emphasis.svg"
+  install -Dm 644 "${srcdir}/image_arrow-right.svg" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/image_arrow-right.svg"
+  install -Dm 644 "${srcdir}/image_ext-link_h1.svg" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/image_ext-link_h1.svg"
+  install -Dm 644 "${srcdir}/image_ext-link_h2.svg" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/image_ext-link_h2.svg"
+  install -Dm 644 "${srcdir}/image_ext-link_lrg.svg" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/image_ext-link_lrg.svg"
+  install -Dm 644 "${srcdir}/image_ext-link.svg" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/image_ext-link.svg"
+
   # Install Archiv8 related documentation
-  install -Dm 644 "${srcdir}/CC-BY-SA-V4.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/CC-BY-SA-V4.md"
   install -Dm 644 "${srcdir}/CHANGELOG.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/CHANGELOG.md"
   install -Dm 644 "${srcdir}/HOW-TO-HELP.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/HOW-TO-HELP.md"
   install -Dm 644 "${srcdir}/INSTALL.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/INSTALL.md"
   install -Dm 644 "${srcdir}/ISSUES.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/ISSUES.md"
-  install -Dm 644 "${srcdir}/LICENSE.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/LICENSE.md"
-  install -Dm 644 "${srcdir}/MIT.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/MIT.md"
   install -Dm 644 "${srcdir}/README.md" "${pkgdir}/usr/share/doc/${pkgname}/Archiv8/README.md"
 }
