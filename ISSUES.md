@@ -5,7 +5,7 @@ _Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBU
 [![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-contrib-covenant]![External Link][ext-link_h2] [![Contributors License Agreement adopted][cla-badge]][a8-cla]![External Link][ext-link_h2]
 
 ---
-[Readme](README.md) || [Install](INSTALL.md) || ![Page Indicator][nav-r-em][Issues](ISSUES.md)![Page Indicator][nav-l-em] || [How to help](HOW-TO-HELP.md) || [Change Log](CHANGELOG.md)
+[Readme](README.md) || [Install](INSTALL.md) || ![Page Indicator][nav-r-em][Issues](ISSUES.md)![Page Indicator][nav-l-em] || (COMMUNITY.md) || [How to help](HOW-TO-HELP.md) || [Change Log](CHANGELOG.md)
 
 ---
 
@@ -54,14 +54,17 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-people]![External L
 [mit-badge]: https://img.shields.io/badge/License-MIT-informational.svg
 [semver-badge]: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-informational.svg
 
-[ext-link]: images/ext-link.svg
-[ext-link_h1]: images/ext-link_h1.svg
-[ext-link_h2]: images/ext-link_h2.svg
+[a8-logo]: image_A8-logo.svg
 
-[nav-r-em]: images/arrow-right_emphasis.svg
-[nav-l-em]: images/arrow-left_emphasis.svg
-[nav-r]: images/arrow-right.svg
-[nav-l]: images/arrow-left.svg
+[ext-link]: image_ext-link.svg
+[ext-link_h1]: image_ext-link_h1.svg
+[ext-link_h2]: image_ext-link_h2.svg
+[ext-link_h2]: image_ext-link_lrg.svg
+
+[nav-r-em]: image_arrow-right_emphasis.svg
+[nav-l-em]: image_arrow-left_emphasis.svg
+[nav-r]: image_arrow-right.svg
+[nav-l]: image_arrow-left.svg
 
 [cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
 [cc-compat]: http://creativecommons.org/compatiblelicenses

@@ -6,7 +6,7 @@ _Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBU
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [How to help](HOW-TO-HELP.md) || ![Page Indicator][nav-r-em][Change Log](CHANGELOG.md)![Page Indicator][nav-l-em]
+[Readme](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || (COMMUNITY.md) || [How to help](HOW-TO-HELP.md) || ![Page Indicator][nav-r-em][Change Log](CHANGELOG.md)![Page Indicator][nav-l-em]
 
 ---
 
@@ -37,14 +37,17 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-people]![External L
 [mit-badge]: https://img.shields.io/badge/License-MIT-informational.svg
 [semver-badge]: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-informational.svg
 
-[ext-link]: images/ext-link.svg
-[ext-link_h1]: images/ext-link_h1.svg
-[ext-link_h2]: images/ext-link_h2.svg
+[a8-logo]: image_A8-logo.svg
 
-[nav-r-em]: images/arrow-right_emphasis.svg
-[nav-l-em]: images/arrow-left_emphasis.svg
-[nav-r]: images/arrow-right.svg
-[nav-l]: images/arrow-left.svg
+[ext-link]: image_ext-link.svg
+[ext-link_h1]: image_ext-link_h1.svg
+[ext-link_h2]: image_ext-link_h2.svg
+[ext-link_h2]: image_ext-link_lrg.svg
+
+[nav-r-em]: image_arrow-right_emphasis.svg
+[nav-l-em]: image_arrow-left_emphasis.svg
+[nav-r]: image_arrow-right.svg
+[nav-l]: image_arrow-left.svg
 
 [cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
 [cc-compat]: http://creativecommons.org/compatiblelicenses
