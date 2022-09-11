@@ -1,4 +1,4 @@
-# [Archiv8][a8]![External Link][ext-link_h1] ISSUES
+# [Archiv8][a8]![External Link][ext-link_h1] License Terms
 
 _Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBUILDs_
 
@@ -12,29 +12,43 @@ _**It is not affiliated, authorized, endorsed by, or in other way connected with
 
 ---
 
-[Readme](README.md) || [Install](INSTALL.md) || ![Page Indicator][nav-r-em][Issues](ISSUES.md)![Page Indicator][nav-l-em] || [Community](COMMUNITY.md) || [How to help](HOW-TO-HELP.md) || [Change Log](CHANGELOG.md) || [License](LICENSE.md)
+[Read Me](README.md) || [Install](INSTALL.md) || [Issues](ISSUES.md) || [Community](COMMUNITY.md) || [How To help](HOW-TO-HELP.md) || [Change Log](CHANGELOG.md) || ![Page Indicator][nav-r-em][_License_](LICENSE.md)![Page Indicator][nav-l-em]
+
+**Licenses**: [Apache, Full Text](APACHE-V2.0-FULL.md) || [Apache, Short Text](APACHE-V2.0-SHORT.md) || [Creative Commons][license-cc-in]
 
 ---
 
-Any new issues should be filed with the [package repository][a8-issue]![External Link][ext-link]
+## Licensing Information
 
-[Bug](#bug) || [Documentation](#documentation) || [Form](#form) [Outdated](#outdated) || [Package](#package) || [Request](#request) ||  [Security](#security) || [Upstream](#upstream)
+### Upstream Code and All Other Content
 
-## Bug
+Upstream code and all other upstream content remain the property of the licensor. If there are any problems with the upstream license installed through the contents of this repository, clarity of attribution or similar issues please file a [Bug Report][a8-issue-license] with repository hosting this package.
 
-## Documentation
+---
 
-## Form
+## Original Code
 
-## Outdated
+### Apache License, Version 2.0
 
-## Package
+_**Copyright 2022, [Ross William Clark][a8]**_
 
-## Request
+Original code is licensed under the [Apache License, Version 2.0][license-apache-out] (the "License").  Code from this project nay not be used except when in compliance with the License.  The full text of the license can be found in this repository, [APACHE-V2.0-FULL.md][license-apache-in], or the [Apache][license-apache-out] website.
 
-## Security
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
-## Upstream
+---
+
+## Original, non-code, content
+
+### CC BY-SA 4.0 License
+
+_**Copyright 2022, [Ross William Clark][a8]**_
+
+All original non-code content in this project is licensed under a [Creative Commons][license-cc], CC BY-SA 4.0 license. The [short form of the license][license-cc-short-out] can be found on the Creative Commons website. The full text of the license can be found in the root of this repository, [CC-BY-SA-4.0.md][license-cc-in], or the [Creative Commons][license-cc-long-out] website.
 
 ---
 
@@ -155,7 +169,7 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-people]![External L
 [a8-issue]: https://github.com/Archiv8/pkgbrowser/issues/new/choose
 [a8-issue-app]: https://github.com/Archiv8/pkgbrowser/issues/new?assignees=rossclarkartist&labels=element%3A+app+%3Acomputer%3A%2Cstatus%3A+new+%3Aphone%3A%2Cpriority%3A+LOW+%3Aok_hand%3A%2Cwait%3A+triage+%3Ahospital%3A&template=FORM_APP.yml&title=%5BAPPLICATION%5D%3A+Add+brief+description+here
 [a8-issue-com]: https://github.com/Archiv8/pkgbrowser/issues/new?assignees=rossclarkartist&labels=element%3A+community+%3Afamily%3A%2Cstatus%3A+new+%3Aphone%3A%2Cpriority%3A+CRITICAL+%3Aclock1%3A%2Cwait%3A+triage+%3Ahospital%3A&template=FORM_COMMUNITY.yml&title=%5BCOMMUNITY%5D%3A+Add+brief+description+here
-[a8-issue-doc]: https://github.com/Archiv8/pkgbrowser/issues/new?assignees=rossclarkartist&labels=element%3A+doc+%3Aledger%3A%2Cstatus%3A+new+%3Aphone%3A%2Cpriority%3A+NORMAL+%3Acalendar%3A%2Cwait%3A+triage+%3Ahospital%3A&template=FORM_DOC.yml&title=%5BDOCUMENTATION%5D%3A+Add+brief+description+here&page-name=pkgbrowser\ISSUES.md
+[a8-issue-doc]: https://github.com/Archiv8/pkgbrowser/issues/new?assignees=rossclarkartist&labels=element%3A+doc+%3Aledger%3A%2Cstatus%3A+new+%3Aphone%3A%2Cpriority%3A+NORMAL+%3Acalendar%3A%2Cwait%3A+triage+%3Ahospital%3A&template=FORM_DOC.yml&title=%5BDOCUMENTATION%5D%3A+Add+brief+description+here&page-name=pkgbrowser\LICENSE.md
 [a8-issue-form]: https://github.com/Archiv8/pkgbrowser/issues/new?assignees=rossclarkartist&labels=element%3A+form+%3Ascroll%3A%2Cstatus%3A+new+%3Aphone%3A%2Cpriority%3A+NORMAL+%3Acalendar%3A%2Cwait%3A+triage+%3Ahospital%3A&template=FORM_FORM.yml&title=%5BFORM%5D%3A+Add+brief+description+here
 [a8-issue-license]: https://github.com/Archiv8/pkgbrowser/issues/new?assignees=rossclarkartist&labels=element:+license+:scroll:,status:+new+:phone:,priority:+NORMAL+:calendar:,wait:+triage+:hospital:&template=FORM_OTHER.yml&title=[LICENSE]:+Add+brief+description+here
 [a8-issue-attrib]: https://github.com/Archiv8/pkgbrowser/issues/new?assignees=rossclarkartist&labels=element:+license+:scroll:,status:+new+:phone:,priority:+NORMAL+:calendar:,wait:+triage+:hospital:&template=FORM_OTHER.yml&title=[ATTRIBUTION]:+Add+brief+description+here
