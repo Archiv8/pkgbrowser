@@ -1,4 +1,4 @@
-# [Archiv8][a8]![External Link][ext-link_h1] HOW TO HELP
+# [Archiv8][a8]![External Link][ext-link_h1] CHANGE LOG
 
 _Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBUILDs_
 

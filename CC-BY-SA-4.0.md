@@ -1,4 +1,4 @@
-# [Archiv8][a8]![External Link][ext-link_h1] License, Creative Commons
+# [Archiv8][a8]![External Link][ext-link_h1] LICENSE TERMS, CREATIVE COMMONS, CC-BY-SA-4.0
 
 _Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBUILDs_
 

@@ -1,4 +1,4 @@
-# [Archiv8][a8]![External Link][ext-link_h1] License Terms
+# [Archiv8][a8]![External Link][ext-link_h1] LICENSE TERMS, APACHE 2.0, SHORT TEXT
 
 _Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBUILDs_
 
