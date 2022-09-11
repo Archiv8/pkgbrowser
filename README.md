@@ -46,17 +46,17 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-people]![External L
 [mit-badge]: https://img.shields.io/badge/License-MIT-informational.svg
 [semver-badge]: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-informational.svg
 
-[a8-logo]: /images/image_A8-logo.svg
+[a8-logo]: image_A8-logo.svg
 
-[ext-link]: /images/image_ext-link.sv
-[ext-link_h1]: /images/image_ext-link_h1.svg
-[ext-link_h2]: /images/image_ext-link_h2.svg
-[ext-link_h2]: /images/image_ext-link_lrg.svg
+[ext-link]: image_ext-link.sv
+[ext-link_h1]: image_ext-link_h1.svg
+[ext-link_h2]: image_ext-link_h2.svg
+[ext-link_h2]: image_ext-link_lrg.svg
 
-[nav-r-em]: /images/image_arrow-right_emphasis.svg
-[nav-l-em]: /images/image_arrow-left_emphasis.svg
-[nav-r]: /images/image_arrow-right.svg
-[nav-l]: /images/image_arrow-left.svg
+[nav-r-em]: image_arrow-right_emphasis.svg
+[nav-l-em]: image_arrow-left_emphasis.svg
+[nav-r]: image_arrow-right.svg
+[nav-l]: image_arrow-left.svg
 
 [license-apache-in]: /APACHE-V2.0-FULL.md
 [license-apache-out]: http://www.apache.org/licenses/LICENSE-2.0
