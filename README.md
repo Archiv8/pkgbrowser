@@ -48,7 +48,7 @@ Thanks to those who have contributed to [Archiv8][a8-contrib-people]![External L
 
 [a8-logo]: image_A8-logo.svg
 
-[ext-link]: image_ext-link.sv
+[ext-link]: image_ext-link.svg
 [ext-link_h1]: image_ext-link_h1.svg
 [ext-link_h2]: image_ext-link_h2.svg
 [ext-link_h2]: image_ext-link_lrg.svg
