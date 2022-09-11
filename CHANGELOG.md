@@ -2,7 +2,7 @@
 
 _Exploring and Sharing Custom [Arch Linux][arch]![External Link][ext-link] PKGBUILDs_
 
-[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-community-covenant]![External Link][ext-link_h2] [![Contributors License Agreement adopted][cla-badge]][a8-community-cla]![External Link][ext-link_h2] [![License: Apache V.20][apache-badge]][license-apache-a8][license-apache-a8]![External Link][ext-link_h2] [![License: CC BY-SA 4.0][cc-badge]][license-cc-a8]![External Link][ext-link_h2]
+[![Contributor Covenant, version 2.0.0, adopted][covenant-badge]][a8-community-covenant]![External Link][ext-link_h2] [![Contributors License Agreement adopted][cla-badge]][a8-community-cla]![External Link][ext-link_h2] [![License: Apache V.20][apache-badge]][license-apache-a8] ![External Link][ext-link_h2] [![License: CC BY-SA 4.0][cc-badge]][license-cc-a8]![External Link][ext-link_h2]
 
 ---
 
