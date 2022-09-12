@@ -8,7 +8,7 @@
 # and https://archiv8.github.io for further information.
 # [ToDo]: Add files: User documentation
 # [ToDo]: Add files: Tooling
-# [FixMe]: Namcap warnings and errors. Do these need clearning up?
+# [FixMe]: Namcap warnings and errors. Do these need cleaning up?
 # [FixMe]: PKGBUILD (pkgbrowser) W: Reference to x86_64 should be changed to $CARCH
 # [FixMe]: pkgbrowser W: Referenced library 'pkgbrowser' is an uninstalled dependency
 
